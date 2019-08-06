@@ -1,0 +1,30 @@
+#!/bin/sh
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+  for f in /etc/X11/xinit/xinitrc.d/*; do
+    [ -x "$f" ] && . "$f"
+  done
+  unset f
+fi
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+export XDG_CONFIG_HOME="$HOME/.config"
+[ -d /sbin ] && PATH="$PATH:/sbin"
+[ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
+[ -d "$HOME/.bin" ] && PATH="$HOME/bin:$PATH"
+[ -d "$HOME/.cargo/bin" ] && PATH="$HOME/.cargo/bin:$PATH"
+[ -d "$HOME/.scripts/bin" ] && PATH="$HOME/.scripts/bin:$PATH"
+[ -d "$HOME/.config/polybar/bin" ] && PATH="$HOME/.config/polybar/bin:$PATH"
+# window manager agnostic autostart
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+gnome-keyring-daemon --start --components=pkcs11 &
+xmodmap -e "keycode 135 = Super_R"
+xsetroot -cursor_name left_ptr
+unclutter --timeout 2 &
+rfkill block bluetooth
+xfce4-power-manager &
+nitrogen --restore &
+xfsettingsd &
+compton &
+dwm-bar &
+#xset -b
+
+exec dwm
