@@ -1,0 +1,98 @@
+#
+# wm independent hotkeys
+#
+
+# lock screen
+XF86Launch1
+    slimlock
+
+# terminal emulator
+grave
+	urxvtc 
+
+# web browser
+alt + w
+    qutebrowser	
+
+# url bar & web search
+super + s
+    dmenu-websearch
+
+# alternate web browser
+super + w
+    chromium
+
+# file manager
+alt + f
+	pcmanfm
+
+# music player
+alt + m
+	urxvtc -e musikcube
+
+# view weather
+alt + shift + w
+    qutebrowser --target=window wttr.in/22485
+
+# nicotine
+alt + n
+	nicotine
+
+# network manager
+alt + shift + n
+    gnome-terminal --hide-menubar -e nmtui
+
+# pushbullet sms
+alt + p
+    chromium --app=https://www.pushbullet.com
+
+# calculator
+alt + c
+	gnome-calculator
+
+# dmenu run command
+super + d
+    dmenu_run
+
+# desktop menu
+super + @space
+    j4-dmenu-desktop
+
+# take screenshot
+Print
+	flameshot full -d 2000 -p ~/Pictures/Screenshots/
+
+# make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+#
+# media keys
+#
+
+XF86AudioRaiseVolume
+    pamixer -i 5 --allow-boost
+
+XF86AudioLowerVolume
+    pamixer -d 5 --allow-boost
+
+XF86AudioMute
+    pamixer -t
+
+XF86AudioMicMute
+	amixer -q -D pulse sset Capture toggle && pkill -RTMIN+10
+
+#reset volume to 100%
+
+alt + XF86AudioRaiseVolume
+    pamixer --set-volume 100
+
+alt + XF86AudioLowerVolume
+    pamixer --set-volume 100
+
+#
+# dwm logout
+#
+
+alt + shift + e
+    dwm-logout

@@ -1,0 +1,90 @@
+#
+# wm independent hotkeys
+#
+
+# lock screen
+XF86Launch1
+    slimlock
+
+# terminal emulator
+grave
+	urxvtc
+
+# web browser
+alt + w
+    qutebrowser	
+
+# url bar & web search
+super + s
+    dmenu-websearch
+
+# alternate web browser
+super + w
+    chromium
+
+# file manager
+alt + f
+	pcmanfm
+
+# music player
+alt + m
+	urxvtc -e musikcube
+
+# view weather
+alt + shift + w
+    qutebrowser --target=window wttr.in/22485
+
+# nicotine
+alt + n
+	nicotine
+
+# network manager
+alt + shift + n
+    gnome-terminal --hide-menubar -e nmtui
+
+# pushbullet sms
+alt + p
+    qutebrowser --target=window www.pushbullet.com
+
+# calculator
+alt + c
+	gnome-calculator
+
+# dmenu run command
+super + d
+    dmenu_run
+
+# desktop menu
+super + @space
+    j4-dmenu-desktop
+
+# take screenshot
+Print
+	flameshot full -d 2000 -p ~/Pictures/Screenshots/
+
+# make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+#
+# media keys
+#
+
+XF86AudioRaiseVolume
+	amixer -q -D pulse sset Master 5%+ && pkill -RTMIN+10
+
+XF86AudioLowerVolume
+	amixer -q -D pulse sset Master 5%- && pkill -RTMIN+10
+
+XF86AudioMute
+	amixer -q -D pulse sset Master toggle && pkill -RTMIN+10
+
+XF86AudioMicMute
+	amixer -q -D pulse sset Capture toggle && pkill -RTMIN+10
+
+#
+# FrankenWM logout
+#
+
+super + shift + q
+    frankenwm-logout
