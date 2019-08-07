@@ -25,6 +25,15 @@ c.aliases = {'q': 'close', 'qa': 'quit', 'w': 'session-save', 'wc': 'config-writ
 #   - webkit: Use QtWebKit (based on WebKit, similar to Safari).
 c.backend = 'webengine'
 
+# Time interval (in milliseconds) between auto-saves of
+# config/cookies/etc.
+# Type: Int
+c.auto_save.interval = 15000
+
+# Always restore open sites when qutebrowser is reopened.
+# Type: Bool
+c.auto_save.session = False
+
 # A list of patterns that should always be loaded, despite being ad-
 # blocked. Note this whitelists blocked hosts, not first-party URLs. As
 # an example, if `example.org` loads an ad from `ads.example.org`, the
@@ -212,6 +221,39 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
 c.url.start_pages = '~/.html/welcome.html'
+
+# Text color of the completion widget. May be a single color to use for
+# all columns or a list of three colors, one for each column.
+# Type: List of QtColor, or QtColor
+c.colors.completion.fg = ['white', 'white', 'white']
+
+# Background color of the completion widget for even rows.
+# Type: QssColor
+c.colors.completion.even.bg = '#333333'
+
+# Foreground color of completion widget category headers.
+# Type: QtColor
+c.colors.completion.category.fg = 'white'
+
+# Background color of the completion widget category headers.
+# Type: QssColor
+c.colors.completion.category.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #888888, stop:1 #505050)'
+
+# Top border color of the completion widget category headers.
+# Type: QssColor
+c.colors.completion.category.border.top = 'black'
+
+# Bottom border color of the completion widget category headers.
+# Type: QssColor
+c.colors.completion.category.border.bottom = 'black'
+
+# Background color of the selected completion item.
+# Type: QssColor
+c.colors.completion.item.selected.bg = '#e8c000'
+
+# Bottom border color of the selected completion item.
+# Type: QssColor
+c.colors.completion.item.selected.border.bottom = '#bbbb00'
 
 # Color of the scrollbar handle in the completion view.
 # Type: QssColor
@@ -424,5 +466,23 @@ c.fonts.web.family.cursive = None
 # Type: Int
 c.fonts.web.size.default = 18
 
+# This setting can be used to map keys to other keys. When the key used
+# as dictionary-key is pressed, the binding for the key used as
+# dictionary-value is invoked instead. This is useful for global
+# remappings of keys, for example to map Ctrl-[ to Escape. Note that
+# when a key is bound (via `bindings.default` or `bindings.commands`),
+# the mapping is ignored.
+# Type: Dict
+c.bindings.key_mappings = {'<Ctrl+Enter>': '<Ctrl+Return>', '<Ctrl+[>': '<Escape>', '<Ctrl+j>': '<Return>', '<Ctrl+m>': '<Return>', '<Enter>': '<Return>', '<Shift+Enter>': '<Return>', '<Shift+Return>': '<Return>'}
+
 # Bindings for normal mode
+config.bind('<Ctrl+1>', 'tab-focus 1')
+config.bind('<Ctrl+2>', 'tab-focus 2')
+config.bind('<Ctrl+3>', 'tab-focus 3')
+config.bind('<Ctrl+4>', 'tab-focus 4')
+config.bind('<Ctrl+5>', 'tab-focus 5')
+config.bind('<Ctrl+6>', 'tab-focus 6')
+config.bind('<Ctrl+7>', 'tab-focus 7')
+config.bind('<Ctrl+8>', 'tab-focus 8')
+config.bind('<Ctrl+9>', 'tab-focus 9')
 config.bind('<Ctrl+p>', 'spawn --userscript qute-pass')

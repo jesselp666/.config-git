@@ -1,30 +1,11 @@
 #!/bin/sh
-export SEP1="|"
-export SEP2="|"
+export SEP="|"
 export IDENTIFIER="unicode"
 # status modules #
-dwm_battery () {
-    # Change BAT1 to whatever your battery is identified as. Typically   BAT0 or BAT1
-    CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
-    STATUS=$(cat /sys/class/power_supply/BAT0/status)
-
-    printf "%s" #"$SEP1"#
-    if [ "$IDENTIFIER" = "unicode" ]; then
-        if [ "$STATUS" = "Charging" ]; then
-            printf "🔌%s%% %s" "$CHARGE" "$STATUS"
-        else
-            printf "🔋%s%% %s" "$CHARGE" "$STATUS"
-        fi
-    else
-        printf "BAT %s%% %s" "$CHARGE" "$STATUS"
-    fi
-    printf "%s\n" #"$SEP2"#
-}
-
 dwm_pulse () {
     VOL=$(pamixer --get-volume-human | tr -d '%')
  
-    printf "%s" #"$SEP1"#
+    printf "%s"  "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then
         if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
             printf "🔇"
@@ -35,28 +16,45 @@ dwm_pulse () {
         else
             printf "🔊 %s%%" "$VOL"
         fi
-    else
-        if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
-            printf "MUTE"
-        elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
-            printf "VOL %s%%" "$VOL"
-        elif [ "$VOL" -gt 33 ] && [ "$VOL" -le 66 ]; then
-            printf "VOL %s%%" "$VOL"
-        else
-            printf "VOL %s%%" "$VOL"
-        fi
+   else
+       if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
+           printf "MUTE"
+       elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
+           printf "VOL %s%%" "$VOL"
+       elif [ "$VOL" -gt 33 ] && [ "$VOL" -le 66 ]; then
+           printf "VOL %s%%" "$VOL"
+       else
+           printf "VOL %s%%" "$VOL"
+       fi
     fi
-    printf "%s\n" "$SEP2"
+    printf "%s\n" "$SEP"
+}
+
+dwm_battery () {
+    CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
+    STATUS=$(cat /sys/class/power_supply/BAT0/status)
+
+    printf "%s" #"$SEP"#
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        if [ "$STATUS" = "Charging" ]; then
+            printf "🔌%s%% %s" "$CHARGE" "$STATUS"
+        else
+            printf "🔋%s%% %s" "$CHARGE" "$STATUS"
+        fi
+    else
+        printf "BAT %s%% %s" "$CHARGE" "$STATUS"
+    fi
+    printf "%s\n" #"$SEP"#
 }
 
 dwm_date () {
-    printf "%s" "$SEP1"
+    printf "%s" "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then
         printf "📆%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
     else
         printf "DAT%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
     fi
-    printf "%s\n" #"$SEP2"#
+    printf "%s\n" #"$SEP"#
 }
 # module order #
 while true
