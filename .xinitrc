@@ -25,6 +25,5 @@ nitrogen --restore &
 xfsettingsd &
 compton &
 dwm-bar &
-#xset -b
 
 exec dwm

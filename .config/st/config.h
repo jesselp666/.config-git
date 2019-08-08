@@ -8,6 +8,7 @@
  *      0 = no border, 100 = border width is same as cell width
  */
 static char *font = "MesloLGS Nerd Font:pixelsize=17:antialias=true:autohint=true";
+/*static char *font = "-cronyx-fixed-bold-r-normal--16-120-100-100-c-80-koi8-r";*/
 int borderperc = 0;
 
 /*
@@ -152,8 +153,8 @@ static unsigned int cursorshape = 6;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 40;
+static unsigned int cols = 60;
+static unsigned int rows = 20;
 
 /*
  * Default colour and shape of the mouse cursor

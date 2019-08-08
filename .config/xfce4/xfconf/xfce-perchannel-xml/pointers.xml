@@ -33,7 +33,8 @@
     </property>
     <property name="RightHanded" type="bool" value="true"/>
     <property name="Threshold" type="int" value="1"/>
-    <property name="Acceleration" type="double" value="4.600000"/>
+    <property name="Acceleration" type="double" value="4.500000"/>
+    <property name="ReverseScrolling" type="bool" value="false"/>
   </property>
   <property name="TPPS2_IBM_TrackPoint" type="empty">
     <property name="RightHanded" type="bool" value="true"/>
