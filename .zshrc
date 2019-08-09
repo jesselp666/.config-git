@@ -74,6 +74,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Better cd
 for f in "$HOME/".*?.zsh; do
     . "$f"
 done

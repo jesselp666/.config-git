@@ -1,4 +1,4 @@
-TerminalEmulator=urxvt
-FileManager=Thunar
+TerminalEmulator=custom-TerminalEmulator
+FileManager=pcmanfm
 WebBrowser=custom-WebBrowser
 
