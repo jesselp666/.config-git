@@ -11,14 +11,27 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  auto_save.interval:
-    global: 15000
-  auto_save.session:
-    global: false
-  backend:
-    global: webengine
-  bindings.commands:
-    global:
-      normal:
-        <Ctrl+p>: spawn --userscript qute-pass
-        <ctrl+1>: tab-focus 1
+  colors.completion.scrollbar.fg:
+    global: '#1F292E'
+  colors.prompts.bg:
+    global: '#1F292E'
+  colors.statusbar.caret.bg:
+    global: '#1F292E'
+  colors.statusbar.command.bg:
+    global: '#1F292E'
+  colors.statusbar.command.private.bg:
+    global: '#1F292E'
+  colors.statusbar.insert.bg:
+    global: '#1F292E'
+  colors.statusbar.normal.bg:
+    global: '#1F292E'
+  colors.statusbar.passthrough.bg:
+    global: '#1F292E'
+  colors.statusbar.private.bg:
+    global: '#1F292E'
+  colors.tabs.bar.bg:
+    global: '#1F292E'
+  colors.tabs.even.bg:
+    global: '#1F292E'
+  colors.tabs.odd.bg:
+    global: '#1F292E'

@@ -4,7 +4,7 @@
 |  |  | | | | | | |
 |____/|_____|_|_|_|
                    
-appearance */
+window manager settings */
 static const unsigned int borderpx  = 2;    /* border pixel of windows */
 static const unsigned int gappx     = 0;    /* gaps between tiled windows */
 static const unsigned int snap      = 15;   /* snap pixel */
@@ -17,23 +17,24 @@ static const char col_gray2[]       = "#181D21";
 static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_cyan[]        = "#4BACB7";
-/* alpha values: 100% — FF, 95% — F2, 90% — E6, 85% — D9, 
-80% — CC, 75% — BF, 70% — B3, 65% — A6, 60% — 99, 55% — 8C, 
-50% — 80, 45% — 73, 40% — 66, 35% — 59, 30% — 4D, 25% — 40, 
-20% — 33, 15% — 26, 10% — 1A, 5% — 0D, 0% — 00 */
+/* alpha values and approximate opacity 
+100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
+75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
+50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
+25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
 static const unsigned int baralpha = 0xB3;
 static const unsigned int borderalpha = 0xB3;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-	[SchemeTitle]  = { col_gray3, col_gray1,  col_gray2  },
+	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },
+	[SchemeSel]   = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeTitle] = { col_gray3, col_gray1, col_gray2 },
 };
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
-	[SchemeNorm] = { OPAQUE, baralpha, borderalpha },
-	[SchemeSel]  = { OPAQUE, baralpha, borderalpha },
-    [SchemeTitle]  = { OPAQUE, baralpha, borderalpha },
+	[SchemeNorm]  = { OPAQUE, baralpha, borderalpha },
+	[SchemeSel]   = { OPAQUE, baralpha, borderalpha },
+    [SchemeTitle] = { OPAQUE, baralpha, borderalpha },
 };
 
 /* tagging */

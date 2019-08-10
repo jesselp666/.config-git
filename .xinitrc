@@ -15,6 +15,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 [ -d "$HOME/.config/polybar/bin" ] && PATH="$HOME/.config/polybar/bin:$PATH"
 # window manager agnostic autostart
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+pulseeffects --gapplication-service --load-preset freeq &
 gnome-keyring-daemon --start --components=pkcs11 &
 xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
