@@ -32,7 +32,7 @@ alias dwc='~/.config/dwm/ && sudo make clean install && cd ~/ && clear'
 alias stconf='vim ~/.config/st/config.h'
 alias stwc='~/.config/st/ && sudo make clean install && cd ~/ && clear'
 alias config='/usr/bin/git --git-dir=$HOME/.config-git --work-tree=$HOME'
-alias config-commit="config commit -am 'no comment'"
+alias config-commit="config commit -am 'pizza rules'"
 alias baliasRC='vim ~/.bash/aliases.bash'
 alias xs=startx
 alias trashput=trash-put
