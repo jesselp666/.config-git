@@ -6,7 +6,7 @@ Below are a patch count on each suckless tool/program
 DWM - 12 patches (alpha, attachaside, bottomstack, centeredmaster, cyclelayouts, fibonacci, fullgaps, gridmode, moveresize, 
 noborder, restartsig, titlecolor)
 
-ST - 6 patches (alpha, anysize, boxdraw, clipboard, relativeborder, scrollback)
+ST - 7 patches (alpha, anysize, boxdraw, clipboard, relativeborder, scrollback, spoiler)
 
 DMENU - 2 patches (fuzzymatch, mousesupport)
 
