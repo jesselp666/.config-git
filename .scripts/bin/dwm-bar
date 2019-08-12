@@ -27,14 +27,28 @@ dwm_pulse () {
            printf "VOL %s%%" "$VOL"
        fi
     fi
-    printf "%s\n" "$SEP"
+    printf "%s\n" #"$SEP"#
 }
+
+dwm_weather() {
+         LOCATION=city
+
+         printf "%s" "$SEP"
+         if [ "$IDENTIFIER" = "unicode"  ]; then
+            printf "%s" "$(curl -s wttr.in/22485?format=1)"
+         else
+            printf "WEA%s" "$(curl -s wttr.in/22485?format=1 | grep -o "[0-9].*")"
+         fi
+            printf "%s\n" #"$SEP"#
+                                                  
+}
+
 
 dwm_battery () {
     CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
     STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
-    printf "%s" #"$SEP"#
+    printf "%s" "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then
         if [ "$STATUS" = "Charging" ]; then
             printf "🔌%s%% %s" "$CHARGE" "$STATUS"
@@ -46,6 +60,7 @@ dwm_battery () {
     fi
     printf "%s\n" #"$SEP"#
 }
+
 
 dwm_date () {
     printf "%s" "$SEP"

@@ -88,8 +88,8 @@ static const Layout layouts[] = {
 
 /* key definitions */
 #define MODKEY    Mod1Mask
-#define NOMOD     0
 #define MOD4      Mod4Mask
+#define NOMOD     0
 #define LAUNCH    0x1008ff41
 #define MUTE      0x1008ff12
 #define MICMUTE   0x1008ffb2
