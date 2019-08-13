@@ -30,20 +30,6 @@ dwm_pulse () {
     printf "%s\n" #"$SEP"#
 }
 
-dwm_weather() {
-         LOCATION=city
-
-         printf "%s" "$SEP"
-         if [ "$IDENTIFIER" = "unicode"  ]; then
-            printf "%s" "$(curl -s wttr.in/22485?format=1)"
-         else
-            printf "WEA%s" "$(curl -s wttr.in/22485?format=1 | grep -o "[0-9].*")"
-         fi
-            printf "%s\n" #"$SEP"#
-                                                  
-}
-
-
 dwm_battery () {
     CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
     STATUS=$(cat /sys/class/power_supply/BAT0/status)
@@ -61,6 +47,16 @@ dwm_battery () {
     printf "%s\n" #"$SEP"#
 }
 
+dwm_mem () {
+    TOTAL=$(free -h | awk '(NR==2){ print $2 }')
+    USED=$(free -h | awk '(NR==2){ print $3 }' )
+    printf "%s" "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        printf "%s/%s" "$USED" "$TOTAL"
+    else
+        printf "%s/%s" "$USED" "$TOTAL"
+    fi
+}
 
 dwm_date () {
     printf "%s" "$SEP"
@@ -74,5 +70,5 @@ dwm_date () {
 # module order #
 while true
 do
-    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_date)"
+    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_mem)$(dwm_date)"
 done
