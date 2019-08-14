@@ -20,7 +20,7 @@ gnome-keyring-daemon --start --components=pkcs11 &
 xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
 unclutter --timeout 2 &
-rfkill block bluetooth
+rfkill block bluetooth 
 xfce4-power-manager &
 nitrogen --restore &
 xfsettingsd &

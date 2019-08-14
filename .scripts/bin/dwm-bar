@@ -48,13 +48,15 @@ dwm_battery () {
 }
 
 dwm_mem () {
-    TOTAL=$(free -h | awk '(NR==2){ print $2 }')
+    
+    TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
     USED=$(free -h | awk '(NR==2){ print $3 }' )
+    
     printf "%s" "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then
-        printf "%s/%s" "$USED" "$TOTAL"
+        printf "%s/%sGi" "$USED" "$TOTAL"
     else
-        printf "%s/%s" "$USED" "$TOTAL"
+        printf "%s/%sGi" "$USED" "$TOTAL"
     fi
 }
 
@@ -70,5 +72,5 @@ dwm_date () {
 # module order #
 while true
 do
-    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_mem)$(dwm_date)"
+    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_date)"
 done
