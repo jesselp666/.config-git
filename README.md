@@ -8,7 +8,7 @@ noborder, restartsig, titlecolor)
 
 ST - 7 patches (alpha, anysize, boxdraw, clipboard, relativeborder, scrollback, spoiler)
 
-DMENU - 2 patches (fuzzymatch, mousesupport)
+DMENU - 3 patches (fuzzymatch, mousesupport, prefixcompletion-flag)
 
 My build of ST will display EVERY character correctly.  I have compared with nearly EVERY terminal emulator on AUR and official
 Arch repos.  I have NOT added the .Xresources patch to ST. It is completely unnecessary.
