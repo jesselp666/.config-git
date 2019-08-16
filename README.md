@@ -5,8 +5,8 @@ I store my suckless builds in .config, for a cleaner home directory.
 I also have aliases for quick compilation after config.h editing, my .zshrc file sources the .aliases.zsh file.
 Below are a patch count on each suckless tool/program
 
-DWM - 12 patches (alpha, attachaside, bottomstack, centeredmaster, cyclelayouts, fibonacci, fullgaps, gridmode, moveresize, 
-noborder, restartsig, titlecolor)
+DWM - 13 patches (alpha, attachaside, bottomstack, centeredmaster, cyclelayouts, fibonacci, fullgaps, gridmode, moveresize, 
+noborder, restartsig, titlecolor, sticky)
 
 ST - 7 patches (alpha, anysize, boxdraw, clipboard, relativeborder, scrollback, spoiler)
 
