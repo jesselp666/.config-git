@@ -16,6 +16,7 @@ static const char col_gray1[]       = "#181D21";
 static const char col_gray2[]       = "#181D21";
 static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
+static const char col_gray5[]       = "#35413F";
 static const char col_cyan[]        = "#4BACB7";
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
