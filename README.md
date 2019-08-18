@@ -6,7 +6,7 @@ I also have aliases for quick compilation after config.h editing, my .zshrc file
 Below are a patch count on each suckless tool/program
 
 DWM - 14 patches (alpha, attachaside, bottomstack, centeredmaster, cyclelayouts, fibonacci, fullgaps, gridmode, moveresize, 
-noborder, restartsig, titlecolor, sticky, hide inactive)  I keep going back and forth between including and not including "hide inactive"
+noborder, restartsig, titlecolor, sticky, hide inactive)  I keep going back and forth between including and not including "hide inactive".  Thus .config/dwm-bkup is dwm without the hide inactive patch.
 
 ST - 7 patches (alpha, anysize, boxdraw, clipboard, relativeborder, scrollback, spoiler)
 
