@@ -12,8 +12,8 @@ static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
 static const char *fonts[]          = { "CodeNewRoman Nerd Font:size=13" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13";
-static const char col_gray1[]       = "#181D21";
-static const char col_gray2[]       = "#181D21";
+static const char col_gray1[]       = "#161D21";
+static const char col_gray2[]       = "#161D21";
 static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
@@ -23,8 +23,8 @@ static const char col_cyan[]        = "#4BACB7";
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int baralpha = 0xB3;
-static const unsigned int borderalpha = 0xB3;
+static const unsigned int baralpha = 0xD9;
+static const unsigned int borderalpha = 0xD9;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },
@@ -39,7 +39,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
