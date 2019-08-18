@@ -24,6 +24,7 @@ rfkill block bluetooth
 xfce4-power-manager &
 nitrogen --restore &
 xfsettingsd &
+conky-wttr &
 compton &
 dwm-bar &
 
