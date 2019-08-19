@@ -7,7 +7,7 @@ DWM - 16 patches (alpha, attachaside, bottomstack, centeredmaster, cyclelayouts,
 
 ST - 7 patches (alpha, anysize, boxdraw, clipboard, relativeborder, scrollback, spoiler)
 
-DMENU - 3 patches (fuzzymatch, mousesupport, prefixcompletion-flag)
+DMENU - 4 patches (fuzzymatch, mousesupport, prefixcompletion-flag, xyw)
 
 My build of ST will display EVERY character correctly. I have compared with nearly EVERY terminal emulator on AUR and official Arch repos. I have NOT added the .Xresources patch to ST. It is completely unnecessary. I do not understand why so many add this patch. How does it save time??? config.h has EVERY configuration variable present, not just colors.
 
