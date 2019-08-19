@@ -2,6 +2,48 @@
 export SEP="|"
 export IDENTIFIER="unicode"
 # status modules #
+
+dwm_battery () {
+    CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
+    STATUS=$(cat /sys/class/power_supply/BAT0/status)
+
+    printf "%s" "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        if [ "$STATUS" = "Charging" ]; then
+            printf "🔌%s%% %s" "$CHARGE" "$STATUS"
+        else
+            printf "🔋%s%% %s" "$CHARGE" "$STATUS"
+        fi
+    else
+        printf "BAT %s%% %s" "$CHARGE" "$STATUS"
+    fi
+    printf "%s\n" #"$SEP"#
+}
+
+dwm_mem () {
+    
+    TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
+    USED=$(free -h | awk '(NR==2){ print $3 }' )
+        
+    printf "%s" "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        printf "%s/%sGi" "$USED" "$TOTAL"
+    else
+        printf "%s/%sGi" "$USED" "$TOTAL"
+    fi
+}
+
+dwm_date () {
+    printf "%s" "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        printf "📆%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
+    else
+        printf "DAT%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
+    fi
+    printf "%s\n" #"$SEP"#
+}
+
+
 dwm_pulse () {
     VOL=$(pamixer --get-volume-human | tr -d '%')
  
@@ -29,48 +71,8 @@ dwm_pulse () {
     fi
     printf "%s\n" #"$SEP"#
 }
-
-dwm_battery () {
-    CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
-    STATUS=$(cat /sys/class/power_supply/BAT0/status)
-
-    printf "%s" "$SEP"
-    if [ "$IDENTIFIER" = "unicode" ]; then
-        if [ "$STATUS" = "Charging" ]; then
-            printf "🔌%s%% %s" "$CHARGE" "$STATUS"
-        else
-            printf "🔋%s%% %s" "$CHARGE" "$STATUS"
-        fi
-    else
-        printf "BAT %s%% %s" "$CHARGE" "$STATUS"
-    fi
-    printf "%s\n" #"$SEP"#
-}
-
-dwm_mem () {
-    
-    TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
-    USED=$(free -h | awk '(NR==2){ print $3 }' && sl )
-    
-    printf "%s" "$SEP"
-    if [ "$IDENTIFIER" = "unicode" ]; then
-        printf "%s/%sGi" "$USED" "$TOTAL"
-    else
-        printf "%s/%sGi" "$USED" "$TOTAL"
-    fi
-}
-
-dwm_date () {
-    printf "%s" "$SEP"
-    if [ "$IDENTIFIER" = "unicode" ]; then
-        printf "📆%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
-    else
-        printf "DAT%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
-    fi
-    printf "%s\n" #"$SEP"#
-}
 # module order #
 while true
 do
-    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_date)"
+    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_mem)$(dwm_date)"
 done

@@ -15,16 +15,16 @@ export XDG_CONFIG_HOME="$HOME/.config"
 [ -d "$HOME/.config/polybar/bin" ] && PATH="$HOME/.config/polybar/bin:$PATH"
 # window manager agnostic autostart
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-pulseeffects --gapplication-service --load-preset freeq &
+pulseeffects --gapplication-service --load-preset freeqy &
 gnome-keyring-daemon --start --components=pkcs11 &
 xmodmap -e "keycode 135 = Super_R"
+conky -c /home/jll/.conky/wttr &
 xsetroot -cursor_name left_ptr
 unclutter --timeout 2 &
 rfkill block bluetooth 
 xfce4-power-manager &
 nitrogen --restore &
 xfsettingsd &
-conky-wttr &
 compton &
 dwm-bar &
 

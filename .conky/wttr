@@ -36,4 +36,4 @@ use_spacer yes
 
 minimum_size 0 0
 TEXT
-${font CodeNewRoman Nerd Font:size=13:weight:Book}${texeci 1800 curl -s wttr.in/22485 | sed -n '3,7{s/\d27\[[0-9;]*m//g;s/^..//;s/ *$//;p}'}
+${font CodeNewRoman Nerd Font:size=12:weight:Book}${texeci 1800 curl -s wttr.in/22485 | sed -n '3,7{s/\d27\[[0-9;]*m//g;s/^..//;s/ *$//;p}'}
