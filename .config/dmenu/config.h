@@ -9,7 +9,7 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	             /*     fg         bg       */
+	/*     fg         bg       */
 	[SchemeNorm] = { "#D6D6D6", "#161D21" },
 	[SchemeSel] = { "#1F292E", "#4BACB7" },
 	[SchemeOut] = { "#000000", "#00ffff" },
@@ -26,4 +26,4 @@ static const char worddelimiters[] = " ";
 /*
  * Use prefix matching by default; can be inverted with the -x flag.
  */
- static int use_prefix = 1;
+static int use_prefix = 1;
