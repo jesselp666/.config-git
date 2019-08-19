@@ -18,8 +18,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 pulseeffects --gapplication-service --load-preset freeqy &
 gnome-keyring-daemon --start --components=pkcs11 &
 xmodmap -e "keycode 135 = Super_R"
-conky -c /home/jll/.conky/wttr &
 xsetroot -cursor_name left_ptr
+conky -c ~/.conky/wttr &
 unclutter --timeout 2 &
 rfkill block bluetooth 
 xfce4-power-manager &
