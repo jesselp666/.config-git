@@ -23,7 +23,7 @@ dwm_battery () {
 dwm_mem () {
     
     TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
-    USED=$(free -h | awk '(NR==2){ print $3 }' )
+    USED=$(free -h | awk '(NR==2){ print $3 }' ) 
         
     printf "%s" "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then

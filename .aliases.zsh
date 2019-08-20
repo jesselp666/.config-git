@@ -1,7 +1,7 @@
 #!/bin/zsh
 alias q='exit 0'
 alias c='clear'
-#alias rsync='sudo rsync -r -t -p -o -v --progress -s' 
+#alias rsync='rsync -r -t -p -o -v --progress -s' 
 alias la='ls -Ah'
 alias ll='ls -lAh'
 alias l.='ls -ld .*'
