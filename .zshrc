@@ -69,6 +69,8 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+# Uncomment to disable warning for su
+ZSH_DISABLE_COMPFIX="true"
 
 source $ZSH/oh-my-zsh.sh
 

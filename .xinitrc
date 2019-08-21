@@ -24,7 +24,7 @@ unclutter --timeout 2 &
 rfkill block bluetooth 
 xfce4-power-manager &
 nitrogen --restore &
-xfsettingsd &
+xsettingsd & 
 compton &
 dwm-bar &
 
