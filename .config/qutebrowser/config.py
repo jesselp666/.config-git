@@ -227,9 +227,13 @@ c.url.start_pages = '~/.html/hello.html'
 # Type: List of QtColor, or QtColor
 c.colors.completion.fg = ['white', 'white', 'white']
 
+# Background color of the completion widget for odd rows.
+# Type: QssColor
+c.colors.completion.odd.bg = '#000000'
+
 # Background color of the completion widget for even rows.
 # Type: QssColor
-c.colors.completion.even.bg = '#333333'
+c.colors.completion.even.bg = '#000000'
 
 # Foreground color of completion widget category headers.
 # Type: QtColor
@@ -237,7 +241,7 @@ c.colors.completion.category.fg = 'white'
 
 # Background color of the completion widget category headers.
 # Type: QssColor
-c.colors.completion.category.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #888888, stop:1 #505050)'
+c.colors.completion.category.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #404040, stop:1 #222222)'
 
 # Top border color of the completion widget category headers.
 # Type: QssColor
@@ -247,13 +251,29 @@ c.colors.completion.category.border.top = 'black'
 # Type: QssColor
 c.colors.completion.category.border.bottom = 'black'
 
+# Foreground color of the selected completion item.
+# Type: QtColor
+c.colors.completion.item.selected.fg = '#D6D6D6'
+
 # Background color of the selected completion item.
 # Type: QssColor
-c.colors.completion.item.selected.bg = '#e8c000'
+c.colors.completion.item.selected.bg = '#404040'
+
+# Top border color of the selected completion item.
+# Type: QssColor
+c.colors.completion.item.selected.border.top = '#404040'
 
 # Bottom border color of the selected completion item.
 # Type: QssColor
-c.colors.completion.item.selected.border.bottom = '#bbbb00'
+c.colors.completion.item.selected.border.bottom = '#404040'
+
+# Foreground color of the matched text in the selected completion item.
+# Type: QtColor
+c.colors.completion.item.selected.match.fg = '#4BACB7'
+
+# Foreground color of the matched text in the completion.
+# Type: QtColor
+c.colors.completion.match.fg = '#4BACB7'
 
 # Color of the scrollbar handle in the completion view.
 # Type: QssColor
