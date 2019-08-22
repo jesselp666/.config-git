@@ -13,7 +13,7 @@ static const int topbar             = 1;    /* 0 means bottom bar */
 static const char *fonts[]          = { "CodeNewRoman Nerd Font:size=13" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13";
 static const char col_gray1[]       = "#000000";
-static const char col_gray2[]       = "#000000";
+static const char col_gray2[]       = "#111111";
 static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
@@ -23,8 +23,8 @@ static const char col_cyan[]        = "#4BACB7";
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int baralpha = 0xCC;
-static const unsigned int borderalpha = 0xCC;
+static const unsigned int baralpha = 0xB3;
+static const unsigned int borderalpha = 0xB3;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },
@@ -107,29 +107,30 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *termcmd[]    =   { "st", NULL };
-static const char *lockcmd[]    =   { "slimlock", NULL };
-static const char *webcmd[]     =   { "qutebrowser", NULL };
-static const char *altwebcmd[]  =   { "chromium", NULL };
-static const char *filemancmd[] =   { "pcmanfm", NULL };
-static const char *musikcmd[]   =   { "dwm-musikcube", NULL };
-static const char *wttrcmd[]    =   { "wttr", NULL };
-static const char *niccmd[]     =   { "nicotine", NULL };
-static const char *netmancmd[]  =   { "dwm-netman", NULL };
-static const char *textcmd[]    =   { "dwm-text", NULL };
-static const char *calccmd[]    =   { "gnome-calculator", NULL };
-static const char *dmenucmd[]   =   { "dmenu_run", NULL };
-static const char *dwebcmd[]    =   { "dmenu_websearch", NULL };
-static const char *j4cmd[]      =   { "j4-dmenu-desktop", NULL };
-static const char *scrotcmd[]   =   { "dwm-flameshot", NULL };
-static const char *volinccmd[]  =   { "volinc", NULL };
-static const char *voldeccmd[]  =   { "voldec", NULL };
-static const char *mutecmd[]    =   { "mute", NULL };
-static const char *micmutecmd[] =   { "micmute", NULL };
-static const char *d100cmd[]    =   { "vol100d", NULL };
-static const char *i100cmd[]    =   { "vol100i", NULL };
-static const char *xresetcmd[]  =   { "xsettingsd-reset", NULL };
-static const char *exitcmd[]    =   { "dwm-logout", NULL };
+static const char *termcmd[]     =  { "st", NULL };
+static const char *lockcmd[]     =  { "slimlock", NULL };
+static const char *webcmd[]      =  { "qutebrowser", NULL };
+static const char *altwebcmd[]   =  { "chromium", NULL };
+static const char *filemancmd[]  =  { "pcmanfm", NULL };
+static const char *musikcmd[]    =  { "dwm-musikcube", NULL };
+static const char *wttrcmd[]     =  { "wttr", NULL };
+static const char *niccmd[]      =  { "nicotine", NULL };
+static const char *netmancmd[]   =  { "dwm-netman", NULL };
+static const char *textcmd[]     =  { "dwm-text", NULL };
+static const char *calccmd[]     =  { "gnome-calculator", NULL };
+static const char *dmenucmd[]    =  { "dmenu_run", NULL };
+static const char *dwebcmd[]     =  { "dmenu_websearch", NULL };
+static const char *j4cmd[]       =  { "j4-dmenu-desktop", NULL };
+static const char *scrotcmd[]    =  { "dwm-flameshot", NULL };
+static const char *volinccmd[]   =  { "volinc", NULL };
+static const char *voldeccmd[]   =  { "voldec", NULL };
+static const char *mutecmd[]     =  { "mute", NULL };
+static const char *micmutecmd[]  =  { "micmute", NULL };
+static const char *d100cmd[]     =  { "vol100d", NULL };
+static const char *i100cmd[]     =  { "vol100i", NULL };
+static const char *settingscmd[] =  { "settings-selector", NULL };
+static const char *xresetcmd[]   =  { "xsettingsd-reset", NULL };
+static const char *exitcmd[]     =  { "dwm-logout", NULL };
 
 static Key keys[] = {
 	/* modifier             key       function        argument */
@@ -155,7 +156,6 @@ static Key keys[] = {
      { MOD4,                XK_s,      spawn,    {.v = dwebcmd }  },
      { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
      { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
-     { MODKEY|ShiftMask,    XK_e,      spawn,    {.v = exitcmd }  },
      /* WINDOW MANAGER CONTROL */
      { MODKEY,              XK_b,      togglebar,      {0} },
      { MODKEY,              XK_Left,   focusstack,     {.i = +1 } },
@@ -201,7 +201,9 @@ static Key keys[] = {
      TAGKEYS(               XK_9,                      8)
      { MODKEY|ShiftMask,    XK_q,      quit,           {0} },
      { MODKEY|ShiftMask,    XK_r,      quit,           {1} },
+     { MOD4|ShiftMask,      XK_s,      spawn,          {.v = settingscmd }  },
      { MODKEY|ShiftMask,    XK_r,      spawn,          {.v = xresetcmd }  },
+     { MODKEY|ShiftMask,    XK_e,      spawn,          {.v = exitcmd }  },
 };
 
 /* button definitions */

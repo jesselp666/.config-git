@@ -13,7 +13,9 @@
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
+      <property name="EDID" type="string" value="5933fe4b7dfa213db9b91e3f347e6c1ab585752a"/>
     </property>
   </property>
   <property name="ActiveProfile" type="string" value="Default"/>
+  <property name="IdentityPopups" type="bool" value="false"/>
 </channel>
