@@ -13,7 +13,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 [ -d "$HOME/.cargo/bin" ] && PATH="$HOME/.cargo/bin:$PATH"
 [ -d "$HOME/.scripts/bin" ] && PATH="$HOME/.scripts/bin:$PATH"
 [ -d "$HOME/.config/polybar/bin" ] && PATH="$HOME/.config/polybar/bin:$PATH"
-# window manager agnostic autostart
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 pulseeffects --gapplication-service --load-preset freeqy &
 gnome-keyring-daemon --start --components=pkcs11 &

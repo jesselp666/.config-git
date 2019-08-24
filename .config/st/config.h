@@ -7,7 +7,7 @@
  * borderperc: percentage of cell width to use as a border
  *      0 = no border, 100 = border width is same as cell width
  */
-static char *font = "MesloLGS Nerd Font:pixelsize=17:antialias=true:autohint=true";
+static char *font = "CodeNewRoman Nerd Font:pixelsize=19:antialias=true:autohint=true";
 /*static char *font = "-cronyx-fixed-bold-r-normal--16-120-100-100-c-80-koi8-r";*/
 int borderperc = 0;
 
@@ -27,7 +27,7 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 1.0;
+static float cwscale = 0.95;
 static float chscale = 1.0;
 
 /*
@@ -102,32 +102,32 @@ float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-    "#000000",
-    "#FF003A",
-    "#46b59c",
-    "#fbff36",
-    "#00D7FF",
-    "#7668c4",
-    "#00D7FF",
-    "#D6D6D6",
+             /* 8 normal colors */
+    /*Black*/     "#000000",
+    /*Red*/       "#FF003A",
+    /*Green*/     "#00ff62",
+    /*Yellow*/    "#fbff36",
+    /*Blue*/      "#00D7FF",
+    /*Purple*/    "#5B00FF",
+    /*Cyan*/      "#00D7FF",
+    /*White*/     "#D6D6D6",
 
 	/* 8 bright colors */
-    "#000000",
-    "#FF003A",
-    "#46b59c",
-    "#fbff36",
-    "#00D7FF",
-    "#7668c4",
-    "#00D7FF",
-    "#D6D6D6",
+    /*Black*/     "#000000",
+    /*Red*/       "#FF003A",
+    /*Green*/     "#00ff62",
+    /*Yellow*/    "#fbff36",
+    /*Blue*/      "#00D7FF",
+    /*Purple*/    "#5B00FF",
+    /*Cyan*/      "#00D7FF",
+    /*White*/     "#D6D6D6",
 
-	[255] = 0,
+	              [255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#000000",
-	"#d6d6d6",
-	"#d6d6d6",
+/*Background*/    "#000000",
+/*Foreground*/    "#d6d6d6",
+	              "#d6d6d6",
 };
 
 
@@ -135,7 +135,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
+unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 257;
 static unsigned int defaultrcs = 256;
