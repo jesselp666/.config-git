@@ -1,5 +1,7 @@
 #!/bin/sh
 export SEP="|"
+export SEP1="["
+export SEP2="]"
 export IDENTIFIER="unicode"
 # status modules #
 
@@ -7,7 +9,7 @@ dwm_battery () {
     CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
     STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
-    printf "%s" "$SEP"
+    printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
         if [ "$STATUS" = "Charging" ]; then
             printf "🔌%s%% %s" "$CHARGE" "$STATUS"
@@ -17,7 +19,7 @@ dwm_battery () {
     else
         printf "BAT %s%% %s" "$CHARGE" "$STATUS"
     fi
-    printf "%s\n" #"$SEP"#
+    printf "%s\n" "$SEP2"
 }
 
 dwm_mem () {
@@ -25,29 +27,30 @@ dwm_mem () {
     TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
     USED=$(free -h | awk '(NR==2){ print $3 }' ) 
         
-    printf "%s" "$SEP"
+    printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
         printf "%s/%sGi" "$USED" "$TOTAL"
     else
         printf "%s/%sGi" "$USED" "$TOTAL"
     fi
+    printf "%s" "$SEP2"
 }
 
 dwm_date () {
-    printf "%s" "$SEP"
+    printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
-        printf "📆%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
+        printf "📆%s" "$(date "+%a 📅%m/%d][⏰%l:%M%P")"
     else
-        printf "DAT%s" "$(date "+%a 📅%m/%d|⏰%l:%M%P")"
+        printf "DAT%s" "$(date "+%a 📅%m/%d][⏰%l:%M%P")"
     fi
-    printf "%s\n" #"$SEP"#
+    printf "%s\n" "$SEP2"
 }
 
 
 dwm_pulse () {
     VOL=$(pamixer --get-volume-human | tr -d '%')
  
-    printf "%s"  "$SEP"
+    printf "%s"  "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
         if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
             printf "🔇"
@@ -69,7 +72,7 @@ dwm_pulse () {
            printf "VOL %s%%" "$VOL"
        fi
     fi
-    printf "%s\n" #"$SEP"#
+    printf "%s\n" "$SEP2"
 }
 # module order #
 while true

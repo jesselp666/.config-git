@@ -4,12 +4,10 @@
  * appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- * borderperc: percentage of cell width to use as a border
- *      0 = no border, 100 = border width is same as cell width
  */
-static char *font = "CodeNewRoman Nerd Font:pixelsize=19:antialias=true:autohint=true";
-/*static char *font = "-cronyx-fixed-bold-r-normal--16-120-100-100-c-80-koi8-r";*/
-int borderperc = 0;
+/*static char *font = "MesloLGS Nerd Font:pixelsize=13:antialias=true:autohint=true";*/
+static char *font = "-xos4-terminus-medium-r-normal--20-180-72-72-c-100-iso10646-1";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -27,7 +25,7 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 0.95;
+static float cwscale = 1.0;
 static float chscale = 1.0;
 
 /*
@@ -98,36 +96,36 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.7;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-             /* 8 normal colors */
-    /*Black*/     "#000000",
-    /*Red*/       "#FF003A",
-    /*Green*/     "#00ff62",
-    /*Yellow*/    "#fbff36",
-    /*Blue*/      "#00D7FF",
-    /*Purple*/    "#5B00FF",
-    /*Cyan*/      "#00D7FF",
-    /*White*/     "#D6D6D6",
+	/* 8 normal colors */
+    /*Black*/      "#000000",
+    /*Red*/        "#FF003A",
+    /*Green*/      "#00ff62",
+    /*Yellow*/     "#fbff36",
+    /*Blue*/       "#00D7FF",
+    /*Purple*/     "#5B00FF",
+    /*Cyan*/       "#00D7FF",
+    /*White*/      "#D6D6D6",
 
 	/* 8 bright colors */
-    /*Black*/     "#000000",
-    /*Red*/       "#FF003A",
-    /*Green*/     "#00ff62",
-    /*Yellow*/    "#fbff36",
-    /*Blue*/      "#00D7FF",
-    /*Purple*/    "#5B00FF",
-    /*Cyan*/      "#00D7FF",
-    /*White*/     "#D6D6D6",
+    /*Black*/      "#000000",     
+    /*Red*/        "#FF003A",
+    /*Green*/      "#00ff62",
+    /*Yellow*/     "#fbff36",
+    /*Blue*/       "#00D7FF",
+	/*Purple*/     "#5B00FF",
+    /*Cyan*/       "#00D7FF",
+	/*White*/      "#D6D6D6", 
 
-	              [255] = 0,
+                   [255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
-/*Background*/    "#000000",
-/*Foreground*/    "#d6d6d6",
-	              "#d6d6d6",
+/* more colors can be added after 255 to use with DefaultXX */
+	/*Background*/ "#000000",
+    /*Foreground*/ "#d6d6d6",
+                   "#d6d6d6",
 };
 
 
@@ -153,8 +151,8 @@ static unsigned int cursorshape = 6;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 60;
-static unsigned int rows = 20;
+static unsigned int cols = 80;
+static unsigned int rows = 24;
 
 /*
  * Default colour and shape of the mouse cursor
@@ -185,20 +183,20 @@ static MouseShortcut mshortcuts[] = {
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
-	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
-	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
-	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
-	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ MODKEY|ControlMask,   XK_Up,          zoom,           {.f = +1} },
-	{ MODKEY|ControlMask,   XK_Down,        zoom,           {.f = -1} },
-	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
-	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
-	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
-	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
-	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
-	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
-	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ XK_ANY_MOD,            XK_Break,       sendbreak,      {.i =  0} },
+	{ ControlMask,           XK_Print,       toggleprinter,  {.i =  0} },
+	{ ShiftMask,             XK_Print,       printscreen,    {.i =  0} },
+	{ XK_ANY_MOD,            XK_Print,       printsel,       {.i =  0} },
+	{ MODKEY|ControlMask,    XK_Up,          zoom,           {.f = +1} },
+	{ MODKEY|ControlMask,    XK_Down,        zoom,           {.f = -1} },
+	{ TERMMOD,               XK_Home,        zoomreset,      {.f =  0} },
+	{ TERMMOD,               XK_C,           clipcopy,       {.i =  0} },
+	{ TERMMOD,               XK_V,           clippaste,      {.i =  0} },
+	{ TERMMOD,               XK_Y,           selpaste,       {.i =  0} },
+	{ ShiftMask,             XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,             XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ ShiftMask,             XK_Insert,      selpaste,       {.i =  0} },
+	{ TERMMOD,               XK_Num_Lock,    numlock,        {.i =  0} },
 };
 
 /*
@@ -216,10 +214,6 @@ static Shortcut shortcuts[] = {
  * * 0: no value
  * * > 0: cursor application mode enabled
  * * < 0: cursor application mode disabled
- * crlf value
- * * 0: no value
- * * > 0: crlf mode is enabled
- * * < 0: crlf mode is disabled
  *
  * Be careful with the order of the definitions because st searches in
  * this table sequentially, so any XK_ANY_MOD must be in the last

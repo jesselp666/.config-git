@@ -10,8 +10,8 @@ static const unsigned int gappx     = 0;    /* gaps between tiled windows */
 static const unsigned int snap      = 15;   /* snap pixel */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
-static const char *fonts[]          = { "CodeNewRoman Nerd Font:size=13" };
-static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13";
+static const char *fonts[]          = { "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true" };
+static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#111111";
 static const char col_gray3[]       = "#D6D6D6";
@@ -23,8 +23,8 @@ static const char col_cyan[]        = "#4BACB7";
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int baralpha = 0xB3;
-static const unsigned int borderalpha = 0xB3;
+static const unsigned int baralpha = 0xCC;
+static const unsigned int borderalpha = 0xCC;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },

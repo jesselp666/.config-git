@@ -127,8 +127,6 @@ extern char *stty_args;
 extern char *vtiden;
 extern wchar_t *worddelimiters;
 extern int allowaltscreen;
-int borderpx;
-int borderperc;
 extern char *termname;
 extern unsigned int tabspaces;
 extern unsigned int defaultfg;
