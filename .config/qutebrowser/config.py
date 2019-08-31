@@ -76,6 +76,20 @@ c.downloads.location.directory = '~/Downloads/'
 #   - bottom
 c.downloads.position = 'bottom'
 
+# When a hint can be automatically followed without pressing Enter.
+# Type: String
+# Valid values:
+#   - always: Auto-follow whenever there is only a single hint on a page.
+#   - unique-match: Auto-follow whenever there is a unique non-empty match in either the hint string (word mode) or filter (number mode).
+#   - full-match: Follow the hint when the user typed the whole hint (letter, word or number mode) or the element's text (only in number mode).
+#   - never: The user will always need to press Enter to follow a hint.
+c.hints.auto_follow = 'unique-match'
+
+# Duration (in milliseconds) to ignore normal-mode key bindings after a
+# successful auto-follow.
+# Type: Int
+c.hints.auto_follow_timeout = 0
+
 # Automatically enter insert mode if an editable element is focused
 # after loading the page.
 # Type: Bool
@@ -416,7 +430,7 @@ c.colors.webpage.bg = '#000000'
 # Default monospace fonts. Whenever "monospace" is used in a font
 # setting, it's replaced with the fonts listed here.
 # Type: Font
-c.fonts.monospace = '"CodeNewRoman Nerd Font"'
+c.fonts.monospace = '"FantasqueSansMono Nerd Font"'
 
 # Font used in the completion widget.
 # Type: Font
@@ -470,6 +484,10 @@ c.fonts.tabs = '13pt monospace'
 # Type: FontFamily
 c.fonts.web.family.standard = 'Arial'
 
+# Font family for fixed fonts.
+# Type: FontFamily
+c.fonts.web.family.fixed = None
+
 # Font family for serif fonts.
 # Type: FontFamily
 c.fonts.web.family.serif = 'Arial'
@@ -482,9 +500,26 @@ c.fonts.web.family.sans_serif = 'Arial'
 # Type: FontFamily
 c.fonts.web.family.cursive = None
 
+# Font family for fantasy fonts.
+# Type: FontFamily
+c.fonts.web.family.fantasy = None
+
 # Default font size (in pixels) for regular text.
 # Type: Int
 c.fonts.web.size.default = 18
+
+# Default font size (in pixels) for fixed-pitch text.
+# Type: Int
+c.fonts.web.size.default_fixed = 13
+
+# Hard minimum font size (in pixels).
+# Type: Int
+c.fonts.web.size.minimum = 0
+
+# Minimum logical font size (in pixels) that is applied when zooming
+# out.
+# Type: Int
+c.fonts.web.size.minimum_logical = 6
 
 # This setting can be used to map keys to other keys. When the key used
 # as dictionary-key is pressed, the binding for the key used as

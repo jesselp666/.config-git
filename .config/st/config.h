@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-/*static char *font = "MesloLGS Nerd Font:pixelsize=13:antialias=true:autohint=true";*/
-static char *font = "-xos4-terminus-medium-r-normal--20-180-72-72-c-100-iso10646-1";
+/*static char *font = "FantasqueSansMono Nerd Font:pixelsize=18:antialias=true:autohint=true";*/
+static char *font = "-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1";
 static int borderpx = 0;
 
 /*

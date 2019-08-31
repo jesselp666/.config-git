@@ -11,41 +11,53 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  auto_save.interval:
-    global: 15000
-  bindings.key_mappings:
-    global:
-      <Ctrl+Enter>: <Ctrl+Return>
-      <Ctrl+[>: <Escape>
-      <Ctrl+j>: <Return>
-      <Ctrl+m>: <Return>
-      <Enter>: <Return>
-      <Shift+Enter>: <Return>
-      <Shift+Return>: <Return>
-  colors.completion.category.bg:
-    global: 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #404040, stop:1 #222222)'
-  colors.completion.category.border.bottom:
-    global: black
-  colors.completion.category.border.top:
-    global: black
-  colors.completion.category.fg:
-    global: white
-  colors.completion.even.bg:
-    global: '#000000'
-  colors.completion.fg:
-    global:
-    - white
-    - white
-    - white
-  colors.completion.item.selected.bg:
-    global: '#404040'
-  colors.completion.item.selected.border.bottom:
-    global: '#404040'
-  colors.completion.item.selected.border.top:
-    global: '#404040'
-  colors.completion.item.selected.fg:
-    global: '#D6D6D6'
-  colors.completion.item.selected.match.fg:
-    global: '#4BACB7'
-  colors.completion.match.fg:
-    global: '#4BACB7'
+  fonts.completion.category:
+    global: 13pt monospace
+  fonts.completion.entry:
+    global: 13pt monospace
+  fonts.debug_console:
+    global: 13pt monospace
+  fonts.downloads:
+    global: 13pt monospace
+  fonts.hints:
+    global: 13pt monospace
+  fonts.keyhint:
+    global: 13pt monospace
+  fonts.messages.error:
+    global: 13pt monospace
+  fonts.messages.info:
+    global: 13pt monospace
+  fonts.messages.warning:
+    global: 13pt monospace
+  fonts.monospace:
+    global: '"FantasqueSansMono Nerd Font"'
+  fonts.prompts:
+    global: 13pt sans-serif
+  fonts.statusbar:
+    global: 13pt monospace
+  fonts.tabs:
+    global: 13pt monospace
+  fonts.web.family.cursive:
+    global: null
+  fonts.web.family.fantasy:
+    global: null
+  fonts.web.family.fixed:
+    global: null
+  fonts.web.family.sans_serif:
+    global: Arial
+  fonts.web.family.serif:
+    global: Arial
+  fonts.web.family.standard:
+    global: Arial
+  fonts.web.size.default:
+    global: 18
+  fonts.web.size.default_fixed:
+    global: 13
+  fonts.web.size.minimum:
+    global: 0
+  fonts.web.size.minimum_logical:
+    global: 6
+  hints.auto_follow:
+    global: unique-match
+  hints.auto_follow_timeout:
+    global: 0
