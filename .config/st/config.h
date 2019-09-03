@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-/*static char *font = "FantasqueSansMono Nerd Font:pixelsize=18:antialias=true:autohint=true";*/
-static char *font = "-xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1";
+/*static char *font = "Fantasque Sans Mono:pixelsize=18:antialias=true:autohint=true";*/
+static char *font = "-uw-ttyp0-medium-r-normal--18-170-75-75-c-90-microsoft-cp1251";
 static int borderpx = 0;
 
 /*

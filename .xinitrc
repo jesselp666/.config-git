@@ -18,13 +18,13 @@ pulseeffects --gapplication-service --load-preset freeqy &
 gnome-keyring-daemon --start --components=pkcs11 &
 xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
-conky -c ~/.conky/wttr &
 unclutter --timeout 2 &
 rfkill block bluetooth 
-xfce4-power-manager &
 nitrogen --restore &
 xsettingsd & 
 compton &
 dwm-bar &
+sleep 5 &&
+conky -c ~/.conky/wttr &
 
 exec dwm

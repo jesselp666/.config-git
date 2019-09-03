@@ -76,6 +76,10 @@ c.downloads.location.directory = '~/Downloads/'
 #   - bottom
 c.downloads.position = 'bottom'
 
+# Encoding to use for the editor.
+# Type: Encoding
+c.editor.encoding = 'utf-8'
+
 # When a hint can be automatically followed without pressing Enter.
 # Type: String
 # Valid values:
@@ -430,7 +434,7 @@ c.colors.webpage.bg = '#000000'
 # Default monospace fonts. Whenever "monospace" is used in a font
 # setting, it's replaced with the fonts listed here.
 # Type: Font
-c.fonts.monospace = '"FantasqueSansMono Nerd Font"'
+c.fonts.monospace = '"Fantasque Sans Mono"'
 
 # Font used in the completion widget.
 # Type: Font
@@ -482,7 +486,7 @@ c.fonts.tabs = '13pt monospace'
 
 # Font family for standard fonts.
 # Type: FontFamily
-c.fonts.web.family.standard = 'Arial'
+c.fonts.web.family.standard = 'Liberation Sans'
 
 # Font family for fixed fonts.
 # Type: FontFamily
@@ -490,11 +494,11 @@ c.fonts.web.family.fixed = None
 
 # Font family for serif fonts.
 # Type: FontFamily
-c.fonts.web.family.serif = 'Arial'
+c.fonts.web.family.serif = 'Liberation Sans'
 
 # Font family for sans-serif fonts.
 # Type: FontFamily
-c.fonts.web.family.sans_serif = 'Arial'
+c.fonts.web.family.sans_serif = 'Liberation Sans'
 
 # Font family for cursive fonts.
 # Type: FontFamily

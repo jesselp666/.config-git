@@ -10,7 +10,7 @@ static const unsigned int gappx     = 0;    /* gaps between tiled windows */
 static const unsigned int snap      = 15;   /* snap pixel */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
-static const char *fonts[]          = { "FantasqueSansMono Nerd Font:size=13:style=normal:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Fantasque Sans Mono:size=13:style=normal:antialias=true:autohint=true" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#111111";
@@ -54,6 +54,7 @@ static const Rule rules[] = {
     { "Grsync",                 NULL,       NULL,       0,              1,           -1 },
     { "GParted",                NULL,       NULL,       0,              1,           -1 },
     { "Gnome-disks",            NULL,       NULL,       0,              1,           -1 },
+    { "Gsimplecal",             NULL,       NULL,       0,              1,           -1 },
     { "Gnome-calculator",       NULL,       NULL,       0,              1,           -1 },
     { "File-roller",            NULL,       NULL,       0,              1,           -1 },
     { "Python3",                NULL,       NULL,       0,              1,           -1 },
@@ -118,8 +119,10 @@ static const char *niccmd[]      =  { "nicotine", NULL };
 static const char *netmancmd[]   =  { "dwm-netman", NULL };
 static const char *textcmd[]     =  { "dwm-text", NULL };
 static const char *calccmd[]     =  { "gnome-calculator", NULL };
+static const char *calcmd[]      =  { "gsimplecal", NULL };
 static const char *dmenucmd[]    =  { "dmenu_run", NULL };
 static const char *dwebcmd[]     =  { "dmenu_websearch", NULL };
+static const char *dpasscmd[]    =  { "dmenu_pass", NULL };
 static const char *j4cmd[]       =  { "j4-dmenu-desktop", NULL };
 static const char *scrotcmd[]    =  { "dwm-flameshot", NULL };
 static const char *volinccmd[]   =  { "volinc", NULL };
@@ -150,10 +153,12 @@ static Key keys[] = {
      { MODKEY|ShiftMask,    XK_n,      spawn,    {.v = netmancmd }  },
      { MODKEY,              XK_p,      spawn,    {.v = textcmd }  },
      { MODKEY,              XK_c,      spawn,    {.v = calccmd }  },
+     { MODKEY|ShiftMask,    XK_c,      spawn,    {.v = calcmd }  },
      { MOD4,                XK_w,      spawn,    {.v = altwebcmd }  },
      { MOD4,                XK_d,      spawn,    {.v = dmenucmd }  },
      { MOD4,                XK_space,  spawn,    {.v = j4cmd }  },
      { MOD4,                XK_s,      spawn,    {.v = dwebcmd }  },
+     { MOD4,                XK_p,      spawn,    {.v = dpasscmd }  },
      { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
      { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
      /* WINDOW MANAGER CONTROL */
@@ -169,7 +174,7 @@ static Key keys[] = {
      { MODKEY,              XK_q,      killclient,     {0} },
      { MODKEY,              XK_t,      setlayout,      {.v = &layouts[0]} },
      { MODKEY|ShiftMask,    XK_f,      setlayout,      {.v = &layouts[1]} },
-     { MODKEY|ShiftMask,    XK_c,      setlayout,      {.v = &layouts[2]} },
+     { MODKEY|ControlMask,  XK_c,      setlayout,      {.v = &layouts[2]} },
      { MODKEY|ShiftMask,    XK_s,      setlayout,      {.v = &layouts[3]} },
      { MODKEY,              XK_h,      setlayout,      {.v = &layouts[4]} },
      { MODKEY|ShiftMask,    XK_b,      setlayout,      {.v = &layouts[5]} },

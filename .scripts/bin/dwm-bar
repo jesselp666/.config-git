@@ -77,5 +77,5 @@ dwm_pulse () {
 # module order #
 while true
 do
-    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_date)"
+    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_mem)$(dwm_date)"
 done
