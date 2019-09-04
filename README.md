@@ -9,22 +9,8 @@ ST - 5 patches (alpha, boxdraw, clipboard, scrollback, spoiler)
 
 DMENU - 4 patches (fuzzymatch, mousesupport, prefixcompletion-flag, xyw)
 
-My build of ST will display EVERY character correctly. I have compared with nearly EVERY terminal emulator on AUR and official Arch repos. I have NOT added the .Xresources patch to ST. It is completely unnecessary. I do not understand why so many add this patch. How does it save time??? config.h has EVERY configuration variable present, not just colors.
+My build of ST will display EVERY character correctly. I have compared with nearly EVERY terminal emulator on AUR and official Arch repos.
+
+My DWM bar is located in the scripts folder.  It was created from an existing bar template.  I put every module I use into one file though, for faster loading of the bar.
 
 My scripts include some launchers for programs keybound in DWM, as well logout scripts for DWM and BSPWM
-
-BSPWM is much easier to figure out at first. But I MUCH prefer DWM. The TAG SYSTEM is the KILLER FEATURE, EWMH compliance be damned.
-
-Why do you need EWMH compliance with DWM?
-
-Want to use Polybar? Don't do that, DWM bar is much better for DWM.
-
-Polybar is however great for BSPWM.
-
-I only have BSPWM installed for a backup.
-
-The beauty of DWM is one is very unlikely to ever need a backup WM.
-
-Why? If you have an error in your config.h file, DWM will not compile. Thus, your working instance is still present.
-
-I'm not even sure why I typed this, because I'll probably be the only person to see it LOL
