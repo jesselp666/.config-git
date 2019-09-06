@@ -2,6 +2,7 @@
 export SEP="|"
 export SEP1="["
 export SEP2="]"
+export PERC="%"
 export IDENTIFIER="unicode"
 # status modules #
 
@@ -74,8 +75,14 @@ dwm_pulse () {
     fi
     printf "%s\n" #"$SEP2"#
 }
+
+dwm_backlight () {
+    printf "%s☀%.0f%s\n" "$SEP" "$(xbacklight)" "$PERC"
+}
+
 # module order #
+
 while true
 do
-    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_mem)$(dwm_date)"
+    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_backlight)$(dwm_mem)$(dwm_date)"
 done
