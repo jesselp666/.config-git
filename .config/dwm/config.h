@@ -57,6 +57,7 @@ static const Rule rules[] = {
     { "Gsimplecal",             NULL,       NULL,       0,              1,           -1 },
     { "Gnome-calculator",       NULL,       NULL,       0,              1,           -1 },
     { "File-roller",            NULL,       NULL,       0,              1,           -1 },
+    { "Deluge-gtk",             NULL,       NULL,       0,              1,           -1 },
     { "Python3",                NULL,       NULL,       0,              1,           -1 },
     { "Gcolor2",                NULL,       NULL,       0,              1,           -1 },
     { "Python3",                NULL,       NULL,       0,              1,           -1 },
@@ -97,6 +98,8 @@ static const Layout layouts[] = {
 #define MICMUTE   0x1008ffb2
 #define VOLDEC    0x1008ff11
 #define VOLINC    0x1008ff13
+#define BLINC     0x1008ff02
+#define BLDEC     0x1008ff03
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -131,6 +134,8 @@ static const char *mutecmd[]     =  { "mute", NULL };
 static const char *micmutecmd[]  =  { "micmute", NULL };
 static const char *d100cmd[]     =  { "vol100d", NULL };
 static const char *i100cmd[]     =  { "vol100i", NULL };
+static const char *blinccmd[]    =  { "blinc", NULL };
+static const char *bldeccmd[]    =  { "bldec", NULL };
 static const char *settingscmd[] =  { "settings-selector", NULL };
 static const char *xresetcmd[]   =  { "xsettingsd-reset", NULL };
 static const char *exitcmd[]     =  { "dwm-logout", NULL };
@@ -161,6 +166,8 @@ static Key keys[] = {
      { MOD4,                XK_p,      spawn,    {.v = dpasscmd }  },
      { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
      { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
+     { NOMOD,               BLINC,     spawn,    {.v = blinccmd} },
+     { NOMOD,               BLDEC,     spawn,    {.v = bldeccmd} },
      /* WINDOW MANAGER CONTROL */
      { MODKEY,              XK_b,      togglebar,      {0} },
      { MODKEY,              XK_Left,   focusstack,     {.i = +1 } },

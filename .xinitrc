@@ -24,6 +24,7 @@ nitrogen --restore &
 xsettingsd & 
 compton &
 dwm-bar &
+clipit &
 sleep 4 &&
 conky -c ~/.conky/wttr &
 
