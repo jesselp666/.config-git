@@ -25,6 +25,27 @@ c.aliases = {'q': 'close', 'qa': 'quit', 'w': 'session-save', 'wc': 'config-writ
 #   - webkit: Use QtWebKit (based on WebKit, similar to Safari).
 c.backend = 'webengine'
 
+# Which Chromium process model to use. Alternative process models use
+# less resources, but decrease security and robustness. See the
+# following pages for more details:    -
+# https://www.chromium.org/developers/design-documents/process-models
+# - https://doc.qt.io/qt-5/qtwebengine-features.html#process-models
+# Type: String
+# Valid values:
+#   - process-per-site-instance: Pages from separate sites are put into separate processes and separate visits to the same site are also isolated.
+#   - process-per-site: Pages from separate sites are put into separate processes. Unlike Process per Site Instance, all visits to the same site will share an OS process. The benefit of this model is reduced memory consumption, because more web pages will share processes. The drawbacks include reduced security, robustness, and responsiveness.
+#   - single-process: Run all tabs in a single process. This should be used for debugging purposes only, and it disables `:open --private`.
+c.qt.process_model = 'process-per-site'
+
+# When to use Chromium's low-end device mode. This improves the RAM
+# usage of renderer processes, at the expense of performance.
+# Type: String
+# Valid values:
+#   - always: Always use low-end device mode.
+#   - auto: Decide automatically (uses low-end mode with < 1 GB available RAM).
+#   - never: Never use low-end device mode.
+c.qt.low_end_device_mode = 'never'
+
 # Time interval (in milliseconds) between auto-saves of
 # config/cookies/etc.
 # Type: Int
@@ -33,6 +54,10 @@ c.auto_save.interval = 15000
 # Always restore open sites when qutebrowser is reopened.
 # Type: Bool
 c.auto_save.session = False
+
+# Try to pre-fetch DNS entries to speed up browsing.
+# Type: Bool
+c.content.dns_prefetch = True
 
 # A list of patterns that should always be loaded, despite being ad-
 # blocked. Note this whitelists blocked hosts, not first-party URLs. As
@@ -56,9 +81,57 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
+# Allow websites to record audio/video.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+c.content.media_capture = True
+
+# Allow websites to show notifications.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+c.content.notifications = True
+
+# Allow pdf.js to view PDF files in the browser. Note that the files can
+# still be downloaded by clicking the download button in the pdf.js
+# viewer.
+# Type: Bool
+c.content.pdfjs = True
+
+# Allow websites to request persistent storage quota via
+# `navigator.webkitPersistentStorage.requestQuota`.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+c.content.persistent_storage = True
+
 # Enable plugins in Web pages.
 # Type: Bool
-c.content.plugins = True
+c.content.plugins = False
+
+# Allow websites to register protocol handlers via
+# `navigator.registerProtocolHandler`.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+c.content.register_protocol_handler = True
+
+# Validate SSL handshakes.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+c.content.ssl_strict = True
 
 # Enable WebGL.
 # Type: Bool
@@ -122,6 +195,16 @@ c.input.insert_mode.leave_on_load = True
 # Type: Bool
 c.input.spatial_navigation = True
 
+# Keychains that shouldn't be shown in the keyhint dialog. Globs are
+# supported, so `;*` will blacklist all keychains starting with `;`. Use
+# `*` to disable keyhints.
+# Type: List of String
+c.keyhint.blacklist = []
+
+# Rounding radius (in pixels) for the edges of prompts.
+# Type: Int
+c.prompt.radius = 0
+
 # When to show the scrollbar.
 # Type: String
 # Valid values:
@@ -129,6 +212,11 @@ c.input.spatial_navigation = True
 #   - never: Never show the scrollbar.
 #   - when-searching: Show the scrollbar when searching for text in the webpage. With the QtWebKit backend, this is equal to `never`.
 c.scrolling.bar = 'always'
+
+# Enable smooth scrolling for web pages. Note smooth scrolling does not
+# work with the `:scroll-px` command.
+# Type: Bool
+c.scrolling.smooth = True
 
 # Languages to use for spell checking. You can check for available
 # languages and install dictionaries using scripts/dictcli.py. Run the
@@ -184,9 +272,17 @@ c.spellcheck.languages = ['en-US']
 # Type: Bool
 c.statusbar.hide = True
 
+# Padding (in pixels) for the statusbar.
+# Type: Padding
+c.statusbar.padding = {'bottom': 0, 'left': 0, 'right': 0, 'top': 0}
+
 # Open new tabs (middleclick/ctrl+click) in the background.
 # Type: Bool
 c.tabs.background = True
+
+# Padding (in pixels) around text for tabs.
+# Type: Padding
+c.tabs.padding = {'bottom': 0, 'left': 3, 'right': 0, 'top': 0}
 
 # Position of the tab bar.
 # Type: Position
@@ -220,6 +316,14 @@ c.tabs.show = 'multiple'
 # Type: FormatString
 c.tabs.title.format = '{index}: {current_title}'
 
+# Width (in pixels) of the progress indicator (0 to disable).
+# Type: Int
+c.tabs.indicator.width = 0
+
+# Padding (in pixels) for tab indicators.
+# Type: Padding
+c.tabs.indicator.padding = {'bottom': 0, 'left': 0, 'right': 0, 'top': 0}
+
 # Page to open if :open -t/-b/-w is used without URL. Use `about:blank`
 # for a blank page.
 # Type: FuzzyUrl
@@ -239,6 +343,11 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
 c.url.start_pages = '~/.html/hello.html'
+
+# Hide the window decoration.  This setting requires a restart on
+# Wayland.
+# Type: Bool
+c.window.hide_decoration = True
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.

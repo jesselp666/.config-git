@@ -36,7 +36,7 @@ use_spacer yes
 
 minimum_size 0 0
 TEXT
-${voffset 0}${color D6D6D6}${font PragmataPro:pixelsize=140}${time %l:%M}$font
+${voffset 0}${color D6D6D6}${font Fantasque Sans Mono:pixelsize=140}${time %l:%M}$font
 
 
 
