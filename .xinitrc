@@ -22,9 +22,9 @@ xsetroot -cursor_name left_ptr
 unclutter --timeout 2 &
 rfkill block bluetooth 
 nitrogen --restore &
+dwm-wttr
 xsettingsd & 
 compton &
 dwm-bar &
-dwm-conky &
 
 exec dwm

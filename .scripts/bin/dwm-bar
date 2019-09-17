@@ -26,7 +26,7 @@ dwm_battery () {
 dwm_mem () {
     
     TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
-    USED=$(free -h | awk '(NR==2){ print $3 }' ) 
+    USED=$(cat ~/.config/dwm/memused.txt) 
         
     printf "%s" "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then
@@ -80,9 +80,16 @@ dwm_backlight () {
     printf "%s☀%.0f%s\n" "$SEP" "$(xbacklight)" "$PERC"
 }
 
-# module order #
+dwm_updates () {
+    printf  "%s🔃%s" "$SEP" "$(cat ~/.config/dwm/update-check.txt)"
+}
 
+dwm_wttr () {
+    printf "%s🌡%s" "$SEP" "$(cat ~/.config/dwm/dwm-wttr.txt)"
+}
+
+# module order #
 while true
 do
-    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_backlight)$(dwm_mem)$(dwm_date)"
+    xsetroot -name "$(dwm_pulse)$(dwm_battery)$(dwm_backlight)$(dwm_mem)$(dwm_wttr)$(dwm_date)"
 done

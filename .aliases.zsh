@@ -65,7 +65,7 @@ alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 
 #aliases
 alias grep=egrep ps=sps make=gmake
-#alias pup='yes | sudo pacman -Syyu' # update
+alias pup='alias-pkgupdate' # update
 #alias pin='sudo pacman -S'    # install
 #alias pun='sudo pacman -Rs'   # remove
 #alias pcc='sudo pacman -Scc'  # clear cache

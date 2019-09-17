@@ -316,6 +316,11 @@ c.tabs.show = 'multiple'
 # Type: FormatString
 c.tabs.title.format = '{index}: {current_title}'
 
+# Format to use for the tab title for pinned tabs. The same placeholders
+# like for `tabs.title.format` are defined.
+# Type: FormatString
+c.tabs.title.format_pinned = '{index}'
+
 # Width (in pixels) of the progress indicator (0 to disable).
 # Type: Int
 c.tabs.indicator.width = 0
@@ -338,7 +343,7 @@ c.url.default_page = '~/.html/newtab.html'
 # used by prepending the search engine name to the search term, e.g.
 # `:open google qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
+c.url.searchengines = {'DEFAULT': 'https://www.startpage.com/do/dsearch?query={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl

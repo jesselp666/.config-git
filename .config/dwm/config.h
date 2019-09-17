@@ -7,7 +7,7 @@
 window manager settings */
 static const unsigned int borderpx  = 2;    /* border pixel of windows */
 static const unsigned int gappx     = 0;    /* gaps between tiled windows */
-static const unsigned int snap      = 15;   /* snap pixel */
+static const unsigned int snap      = 10;   /* snap pixel */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
 static const char *fonts[]          = { "Fantasque Sans Mono:size=13:style=normal:antialias=true:autohint=true" };
@@ -64,6 +64,7 @@ static const Rule rules[] = {
     { "Gufw.py",                NULL,       NULL,       0,              1,           -1 },
     { "URxvt",                  NULL,       NULL,       0,              1,           -1 },
     { "Chromium",               NULL,       NULL,       0,              1,           -1 },
+    { "Asunder",                NULL,       NULL,       0,              1,           -1 },
     { "Xfce4-settings-manager", NULL,       NULL,       0,              1,           -1 },
     { "Firefox",                NULL,       NULL,       1 << 8,         0,           -1 },
 };
@@ -136,7 +137,7 @@ static const char *d100cmd[]     =  { "vol100d", NULL };
 static const char *i100cmd[]     =  { "vol100i", NULL };
 static const char *blinccmd[]    =  { "blinc", NULL };
 static const char *bldeccmd[]    =  { "bldec", NULL };
-static const char *settingscmd[] =  { "settings-selector", NULL };
+static const char *settingscmd[] =  { "dmenu_syssettings", NULL };
 static const char *xresetcmd[]   =  { "xsettingsd-reset", NULL };
 static const char *exitcmd[]     =  { "dwm-logout", NULL };
 
@@ -162,7 +163,7 @@ static Key keys[] = {
      { MOD4,                XK_w,      spawn,    {.v = altwebcmd }  },
      { MOD4,                XK_d,      spawn,    {.v = dmenucmd }  },
      { MOD4,                XK_space,  spawn,    {.v = j4cmd }  },
-     { MOD4,                XK_s,      spawn,    {.v = dwebcmd }  },
+     { MOD4,                XK_u,      spawn,    {.v = dwebcmd }  },
      { MOD4,                XK_p,      spawn,    {.v = dpasscmd }  },
      { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
      { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
@@ -213,7 +214,7 @@ static Key keys[] = {
      TAGKEYS(               XK_9,                      8)
      { MODKEY|ShiftMask,    XK_q,      quit,           {0} },
      { MODKEY|ShiftMask,    XK_r,      quit,           {1} },
-     { MOD4|ShiftMask,      XK_s,      spawn,          {.v = settingscmd }  },
+     { MOD4,                XK_s,      spawn,          {.v = settingscmd }  },
      { MODKEY|ShiftMask,    XK_r,      spawn,          {.v = xresetcmd }  },
      { MODKEY|ShiftMask,    XK_e,      spawn,          {.v = exitcmd }  },
 };
