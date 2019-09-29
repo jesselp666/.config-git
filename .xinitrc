@@ -5,8 +5,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   done
   unset f
 fi
+parcellite -n &
+start-pulseaudio-x11
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 export XDG_CONFIG_HOME="$HOME/.config"
+export QT_QPA_PLATFORMTHEME="qt5ct"
 [ -d /sbin ] && PATH="$PATH:/sbin"
 [ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
 [ -d "$HOME/.bin" ] && PATH="$HOME/bin:$PATH"
@@ -19,12 +22,15 @@ pulseeffects --gapplication-service --load-preset freeqy &
 gnome-keyring-daemon --start --components=pkcs11 &
 xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
+amixer set channel 0% mute &
 unclutter --timeout 2 &
-rfkill block bluetooth 
+rfkill block bluetooth
 nitrogen --restore &
-dwm-wttr
-xsettingsd & 
+xsettingsd &
+beep -l 0 &
+dwm-wttr &
 compton &
 dwm-bar &
+xset -b
 
 exec dwm

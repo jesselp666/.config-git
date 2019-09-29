@@ -23,8 +23,8 @@ static const char col_cyan[]        = "#4BACB7";
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int baralpha = 0x99;
-static const unsigned int borderalpha = 0x99;
+static const unsigned int baralpha = 0x80;
+static const unsigned int borderalpha = 0x80;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },
@@ -66,7 +66,6 @@ static const Rule rules[] = {
     { "Chromium",               NULL,       NULL,       0,              1,           -1 },
     { "Asunder",                NULL,       NULL,       0,              1,           -1 },
     { "Xfce4-settings-manager", NULL,       NULL,       0,              1,           -1 },
-    { "Firefox",                NULL,       NULL,       1 << 8,         0,           -1 },
 };
 
 /* layout(s) */
@@ -117,12 +116,12 @@ static const char *lockcmd[]     =  { "slimlock", NULL };
 static const char *webcmd[]      =  { "qutebrowser", NULL };
 static const char *altwebcmd[]   =  { "chromium", NULL };
 static const char *filemancmd[]  =  { "pcmanfm", NULL };
-static const char *musikcmd[]    =  { "dwm-musikcube", NULL };
+static const char *musiccmd[]    =  { "dwm-music", NULL };
 static const char *wttrcmd[]     =  { "wttr", NULL };
 static const char *niccmd[]      =  { "nicotine", NULL };
 static const char *netmancmd[]   =  { "dwm-netman", NULL };
 static const char *textcmd[]     =  { "dwm-text", NULL };
-static const char *calccmd[]     =  { "calculator", NULL };
+static const char *calccmd[]     =  { "gnome-calculator", NULL };
 static const char *calcmd[]      =  { "gsimplecal", NULL };
 static const char *dmenucmd[]    =  { "dmenu_run", NULL };
 static const char *dwebcmd[]     =  { "dmenu_websearch", NULL };
@@ -153,7 +152,7 @@ static Key keys[] = {
      { NOMOD,               MICMUTE,   spawn,    {.v = micmutecmd }  },
      { MODKEY,              XK_w,      spawn,    {.v = webcmd }  },
      { MODKEY,              XK_f,      spawn,    {.v = filemancmd }  },
-     { MODKEY,              XK_m,      spawn,    {.v = musikcmd }  },
+     { MODKEY,              XK_m,      spawn,    {.v = musiccmd }  },
      { MODKEY|ShiftMask,    XK_w,      spawn,    {.v = wttrcmd }  },
      { MODKEY,              XK_n,      spawn,    {.v = niccmd }  },
      { MODKEY|ShiftMask,    XK_n,      spawn,    {.v = netmancmd }  },
