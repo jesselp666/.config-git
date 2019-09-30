@@ -3,7 +3,7 @@ Added themes and icons. Some themes and icons sets I created, but the Adapta the
 I store my suckless builds in .config, for a cleaner home directory.
 I also have aliases for quick compilation after config.h editing, my .zshrc file sources the .aliases.zsh file. Below are a patch count on each suckless tool/program
 
-DWM - 17 patches (alpha, attachaside, bottomstack, centeredmaster, cyclelayouts, fibonacci, fullgaps, gridmode, moveresize, noborder, restartsig, titlecolor, sticky, warp, savefloats, hide inactive, pertag) I keep going back and forth between including and not including "hide inactive". Thus .config/dwm-bkup is dwm without the hide inactive patch.
+DWM - 18 patches (statuscolors, alpha, attachaside, bottomstack, centeredmaster, cyclelayouts, fibonacci, fullgaps, gridmode, moveresize, noborder, restartsig, titlecolor, sticky, warp, savefloats, hide inactive, pertag) I keep going back and forth between including and not including "hide inactive". Thus .config/dwm-bkup is dwm without the hide inactive patch.
 
 ST - 5 patches (alpha, boxdraw, clipboard, scrollback, spoiler)
 
