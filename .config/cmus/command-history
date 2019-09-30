@@ -1,0 +1,50 @@
+clear -l
+bind -f common u shell cmus-library-update
+bind playlis
+help
+set follow=false
+refresh -l
+refresh
+update-cache 
+set replaygain_limit=false
+set replaygain_preamp=-1.000000
+set replaygain=1
+set replaygain=0
+set replaygain=4
+set replaygain=3
+set replaygain=2
+set replaygain=enabled
+set show_playback_position=true
+set show_playback_position=false
+set show_remaining_time=true
+set time_show_leading_zero=false
+set show_remaining_time=false
+set mpris=true
+set mouse=true
+set auto_expand_albums_search=false
+bind -f common tab win-next
+bind -f browser c win-activate
+bind -f common space player-pause
+update-cache
+colorscheme jesse
+colorscheme dracula
+colorscheme gruvbox
+colorscheme gray-88
+colorscheme default
+colorscheme cyan
+colorscheme solarized-light
+colorscheme solarized-dark
+a
+quit
+q!
+colorscheme zenburn
+colorscheme night
+colorscheme jellybeans
+colorscheme gruvbox-alt
+colorscheme green-mono-88
+colorscheme green
+q
+set color_statusline_bg=100
+set color_statusline_bg=#1f292e
+set color_titleline_attr
+set output_plugin=alsa
