@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PB for Desktop
+Comment=PB for Desktop is a Pushbullet desktop application for macOS, Windows and Linux
+Exec="/opt/PB for Desktop/pb-for-desktop" %U
+Terminal=false
+Type=Application
+Icon=pb-for-desktop
+Categories=Utility;

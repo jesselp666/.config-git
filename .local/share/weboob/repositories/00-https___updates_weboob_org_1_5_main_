@@ -1,0 +1,2196 @@
+[DEFAULT]
+name = main
+update = 201904071256
+maintainer = Weboob Team <weboob@weboob.org>
+signed = 1
+key_update = 201612311841
+url = https://updates.weboob.org/1.5/main/
+
+[presseurop]
+version = 201903031340
+capabilities = CapMessages
+description = Presseurop website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[edf]
+version = 201903161454
+capabilities = CapDocument CapCollection CapProfile
+description = EDF
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[cmso]
+version = 201903311518
+capabilities = CapBankTransfer CapCollection CapBank CapContact CapBankWealth CapProfile
+description = Crédit Mutuel Sud-Ouest
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[adecco]
+version = 201903031340
+capabilities = CapJob
+description = adecco website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = <unspecified>
+icon = 
+urls = 
+
+[indeed]
+version = 201903031340
+capabilities = CapJob
+description = indeed website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[freeteknomusic]
+version = 201903031340
+capabilities = CapCollection CapFile CapAudio
+description = freeteknomusic website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lampiris]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = French electricity provider Lampiris.fr
+maintainer = Phyks (Lucas Verney) <phyks@phyks.me>
+license = LGPLv3+
+icon = 
+urls = 
+
+[seloger]
+version = 201903031340
+capabilities = CapHousing
+description = French housing website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = http://static.poliris.com/z/portail/svx/portals/sv6_gen/favicon.png
+urls = 
+
+[750g]
+version = 201903031340
+capabilities = CapRecipe
+description = 750g French recipe website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[bforbank]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = BforBank
+maintainer = Baptiste Delpey <b.delpey@hotmail.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[btmon]
+version = 201903031340
+capabilities = CapTorrent
+description = BTMon BitTorrent database
+maintainer = Julien Veyssier <eneiluj@posteo.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[apivie]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Apivie
+maintainer = Romain Bignon <romain@weboob.org>
+license = <unspecified>
+icon = 
+urls = 
+
+[barclays]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Barclays
+maintainer = Jean Walrave <jwalrave@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[pagesjaunes]
+version = 201903161454
+capabilities = CapDirectory
+description = Pages Jaunes
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[phpbb]
+version = 201903031340
+capabilities = CapMessagesPost CapMessages
+description = phpBB forum
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lyricsdotcom]
+version = 201903031340
+capabilities = CapLyrics
+description = Lyrics.com lyrics website
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[btpbanque]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = BTP Banque
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[lcl]
+version = 201904071256
+capabilities = CapBankTransfer CapDocument CapBank CapContact CapCollection CapBankTransferAddRecipient CapBankWealth CapProfile
+description = LCL
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[cpasbien]
+version = 201903031340
+capabilities = CapTorrent
+description = Cpasbien Torrents BitTorrent tracker
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[nectarine]
+version = 201903031340
+capabilities = CapRadio CapCollection
+description = Nectarine Demoscene Radio
+maintainer = Thomas Lecavelier <thomas-weboob@lecavelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[caels]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Crédit Agricole - Épargne Longue des Salariés
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[vlille]
+version = 201903031340
+capabilities = CapGauge
+description = Lille bike renting availability information
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = <unspecified>
+icon = 
+urls = 
+
+[aum]
+version = 201904071256
+capabilities = CapContact CapMessages CapDating CapChat CapMessagesPost CapAccount
+description = "Adopte un Mec" French dating website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[chronopost]
+version = 201903031340
+capabilities = CapParcel
+description = Chronopost
+maintainer = Romain Bignon <romain@weboob.org>
+license = <unspecified>
+icon = 
+urls = 
+
+[popolemploi]
+version = 201903031340
+capabilities = CapJob
+description = Pole Emploi website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = <unspecified>
+icon = 
+urls = 
+
+[apec]
+version = 201903031340
+capabilities = CapJob
+description = apec website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = <unspecified>
+icon = 
+urls = 
+
+[orange]
+version = 201903311518
+capabilities = CapDocument CapCollection CapProfile CapAccount
+description = Orange French mobile phone provider
+maintainer = Florian Duguet <florian.duguet@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[billetreduc]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = BilletReduc discount ticket reservation
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[materielnet]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Materiel.net
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ipapi]
+version = 201903031340
+capabilities = CapGeolocIp
+description = IP-API Geolocation API
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[googletranslate]
+version = 201903031340
+capabilities = CapTranslate
+description = Google translation web service
+maintainer = Lucien Loiseau <loiseau.lucien@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[limetorrents]
+version = 201903031340
+capabilities = CapTorrent
+description = Limetorrents BitTorrent tracker
+maintainer = Julien Veyssier <eneiluj@posteo.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[dailymotion]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = Dailymotion video streaming website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[linuxjobs]
+version = 201903031340
+capabilities = CapJob
+description = linuxjobs website
+maintainer = François Revol <revol@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[hsbc]
+version = 201904061454
+capabilities = CapCollection CapBankWealth CapBank CapProfile
+description = HSBC France
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ouifm]
+version = 201903031340
+capabilities = CapRadio CapCollection
+description = OÜI FM French radio
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[mailinator]
+version = 201903031340
+capabilities = CapMessages
+description = mailinator temp mailbox
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[onlinenet]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Online.net
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[wellsfargo]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Wells Fargo
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[erehsbc]
+version = 201904061454
+capabilities = CapCollection CapBank
+description = HSBC Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[binck]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Binck
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[okc]
+version = 201904071256
+capabilities = CapDating CapMessagesPost CapContact CapMessages
+description = OkCupid
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[colissimo]
+version = 201903031340
+capabilities = CapParcel
+description = Colissimo parcel tracking website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[oney]
+version = 201904071256
+capabilities = CapCollection CapBank
+description = Oney
+maintainer = Vincent Paredes <vparedes@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[bolden]
+version = 201903161454
+capabilities = CapDocument CapCollection CapBankWealth CapBank CapProfile
+description = Bolden
+maintainer = Vincent A <dev@indigo.re>
+license = LGPLv3+
+icon = 
+urls = 
+
+[bnppere]
+version = 201903311518
+capabilities = CapCollection CapBankWealth CapBank CapProfile
+description = BNP Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[agendaculturel]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = agendaculturel website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[amazonstorecard]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Amazon Store Card
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[figgo]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = Figgo - Lucca congés et absences
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[pornhub]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = Pornhub pornographic video streaming website
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[dresdenwetter]
+version = 201903031340
+capabilities = CapGauge
+description = Private wetter station Dresden
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[cmb]
+version = 201903161454
+capabilities = CapBankTransfer CapCollection CapBank CapContact
+description = Crédit Mutuel de Bretagne
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[yomoni]
+version = 201903311518
+capabilities = CapCollection CapBankWealth CapBank
+description = Yomoni
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[pastealacon]
+version = 201903031340
+capabilities = CapPaste BasePasteModule
+description = Paste à la con text sharing tool
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[dpd]
+version = 201903031340
+capabilities = CapParcel
+description = DPD website
+maintainer = Matthieu Weber <mweber+weboob@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[blogspot]
+version = 201903031340
+capabilities = CapMessages
+description = Blog reader for blogspot. Read-only and without comments.
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ticketscesu]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Tickets CESU Edenred
+maintainer = Antoine BOSSY <mail+github@abossy.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[imgur]
+version = 201903031340
+capabilities = CapGallery CapPaste CapFile CapImage
+description = imgur image upload service
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[inrocks]
+version = 201903031340
+capabilities = CapMessages
+description = Les Inrocks French news website
+maintainer = Julien Hebert <juke@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[bnpcards]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = BNP Cartes Entreprises
+maintainer = Baptiste Delpey <bdelpey@budget-insight.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[spirica]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Spirica
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[s2e]
+version = 201904071256
+capabilities = CapBankPockets CapBankWealth CapBank CapCollection
+description = Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ratp]
+version = 201903031340
+capabilities = CapGauge
+description = RATP network status
+maintainer = Phyks (Lucas Verney) <phyks@phyks.me>
+license = AGPLv3+
+icon = 
+urls = 
+
+[cuisineaz]
+version = 201903031340
+capabilities = CapRecipe
+description = Cuisine AZ French recipe website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[vicsec]
+version = 201903031340
+capabilities = CapCollection CapShop
+description = Victoria's Secret
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[vine]
+version = 201903031340
+capabilities = CapVideo CapFile CapImage
+description = vine website
+maintainer = P4ncake <me@p4ncake.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ideel]
+version = 201903031340
+capabilities = CapCollection CapShop
+description = Ideel
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[myfoncia]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Foncia billing capabilities
+maintainer = Phyks (Lucas Verney) <phyks@phyks.me>
+license = LGPLv3+
+icon = 
+urls = 
+
+[cityscoot]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Le scooter électrique en libre-service, sans bornes.
+maintainer = P4ncake <me@p4ncake.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[kickass]
+version = 201903031340
+capabilities = CapTorrent
+description = Kickass Torrents BitTorrent tracker
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[marmiton]
+version = 201903031340
+capabilities = CapRecipe
+description = Marmiton French recipe website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[americanexpress]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = American Express
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[jcvelaux]
+version = 201903031340
+capabilities = CapGauge
+description = City bike renting availability information.
+	Cities: Rouen, Toulouse, Luxembourg, Valence, Stockholm, Goteborg, Santander, Amiens, Lillestrom, Mulhouse, Lyon, Ljubljana, Seville, Namur, Nancy, Creteil, Bruxelles-Capitale, Cergy-Pontoise, Vilnius, Toyama, Kazan, Marseille, Nantes, Besancon
+maintainer = Herve Werner <dud225@hotmail.com>
+license = AGPLv3
+icon = 
+urls = 
+
+[manpower]
+version = 201903031340
+capabilities = CapJob
+description = manpower website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[delubac]
+version = 201904071256
+capabilities = CapCollection CapBank
+description = Banque Delubac & Cie
+maintainer = Noe Rubinstein <nru@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[axabanque]
+version = 201904071256
+capabilities = CapBankTransfer CapDocument CapBank CapCollection CapBankTransferAddRecipient CapBankWealth CapProfile
+description = AXA Banque
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[groupama]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Groupama
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[francetelevisions]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = France Télévisions video website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[pariskiwi]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = ParisKiwi website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[sachsen]
+version = 201903031340
+capabilities = CapGauge
+description = Level of Sachsen river
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[centquatre]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = centquatre website
+maintainer = Phyks <phyks@phyks.me>
+license = AGPLv3+
+icon = 
+urls = 
+
+[mareeinfo]
+version = 201903031340
+capabilities = CapGauge
+description = Un module qui permet d' aller a la pêche aux moules totalement informé
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[parolesnet]
+version = 201903031340
+capabilities = CapLyrics
+description = paroles.net lyrics website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ilmatieteenlaitos]
+version = 201903031340
+capabilities = CapWeather
+description = Get forecasts from the Ilmatieteenlaitos.fi website
+maintainer = Matthieu Weber <mweber+weboob@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[supertoinette]
+version = 201903031340
+capabilities = CapRecipe
+description = Super Toinette, la cuisine familiale French recipe website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[reddit]
+version = 201903031340
+capabilities = CapCollection CapMessages CapFile CapImage
+description = reddit website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[bibliothequesparis]
+version = 201903031340
+capabilities = CapBook CapCollection
+description = Bibliotheques de Paris
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[monster]
+version = 201903031340
+capabilities = CapJob
+description = monster website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ldlc]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = ldlc website
+maintainer = Vincent Paredes <vparedes@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[lacentrale]
+version = 201903031340
+capabilities = CapPriceComparison
+description = Vehicule prices at LaCentrale.fr
+maintainer = Vicnet <vo.publique@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[paroles2chansons]
+version = 201903031340
+capabilities = CapLyrics
+description = Paroles2chansons.com song lyrics website
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ekwateur]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = ekwateur website
+maintainer = Phyks (Lucas Verney) <phyks@phyks.me>
+license = LGPLv3+
+icon = 
+urls = 
+
+[somafm]
+version = 201903031340
+capabilities = CapRadio CapCollection
+description = SomaFM web radio
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[cices]
+version = 201903161454
+capabilities = CapBankPockets CapBankWealth CapBank CapCollection
+description = CIC Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[bp]
+version = 201904071256
+capabilities = CapBankTransfer CapDocument CapBank CapContact CapCollection CapBankTransferAddRecipient CapBankWealth CapProfile
+description = La Banque Postale
+maintainer = Nicolas Duhamel <nicolas@jombi.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[journaldesfemmes]
+version = 201903031340
+capabilities = CapRecipe
+description = journaldesfemmes website
+maintainer = Phyks (Lucas Verney) <phyks@phyks.me>
+license = AGPLv3+
+icon = 
+urls = 
+
+[becm]
+version = 201903161454
+capabilities = CapBankTransfer CapCollection CapBankTransferAddRecipient CapBank CapContact
+description = Banque Européenne Crédit Mutuel
+maintainer = Victor Kannemacher <vkannemacher.budgetinsight@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[netfinca]
+version = 201903031340
+capabilities = 
+description = netfinca website
+maintainer = Martin Sicot <martin.sicot@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[creditcooperatif]
+version = 201903311518
+capabilities = CapBankTransfer CapCollection CapBankTransferAddRecipient CapBank CapProfile
+description = Crédit Coopératif
+maintainer = Kevin Pouget <weboob@kevin.pouget.me>
+license = LGPLv3+
+icon = 
+urls = 
+
+[avendrealouer]
+version = 201903031340
+capabilities = CapHousing
+description = avendrealouer website
+maintainer = ZeHiro <public@abossy.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[pixabay]
+version = 201903031340
+capabilities = CapFile CapImage
+description = Pixabay public domain photo search
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[pradoepargne]
+version = 201903161454
+capabilities = CapBankPockets CapBankWealth CapBank CapCollection
+description = Prado Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ensap]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = ensap website
+maintainer = Juliette Fourcot <juliette@fourcot.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[transilien]
+version = 201903031340
+capabilities = CapTravel
+description = Public transportation in the Paris area
+maintainer = Julien Hébert <juke@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[kiwibank]
+version = 201903031340
+capabilities = CapCollection CapBank
+description = Kiwibank
+maintainer = Cédric Félizard <cedric@felizard.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ameli]
+version = 201903031340
+capabilities = CapDocument CapCollection
+description = Ameli website: French Health Insurance
+maintainer = Christophe Lampin <weboob@lampin.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[vicseccard]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Victoria's Secret Angel Card
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[senscritique]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = senscritique website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[esalia]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Société Générale Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[boursorama]
+version = 201904071256
+capabilities = CapBankTransfer CapCollection CapProfile CapContact CapBankTransferAddRecipient CapCurrencyRate CapBankWealth CapBank
+description = Boursorama
+maintainer = Gabriel Kerneis <gabriel@kerneis.info>
+license = LGPLv3+
+icon = 
+urls = 
+
+[gls]
+version = 201903031340
+capabilities = CapParcel
+description = GLS website
+maintainer = Matthieu Weber <mweber+weboob@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lutim]
+version = 201903031340
+capabilities = CapPaste
+description = lutim website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[freemobile]
+version = 201903161454
+capabilities = CapDocument CapCollection CapProfile CapMessagesPost CapMessages
+description = Free Mobile website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[audioaddict]
+version = 201903031340
+capabilities = CapRadio CapCollection
+description = Internet radios powered by audioaddict.com services
+maintainer = Pierre Mazière <pierre.maziere@gmx.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lucca]
+version = 201903311518
+capabilities = CapDocument CapCollection CapCalendarEvent
+description = Lucca RH
+maintainer = Vincent A <dev@indigo.re>
+license = LGPLv3+
+icon = 
+urls = 
+
+[creditmutuel]
+version = 201904061454
+capabilities = CapBankTransfer CapDocument CapBank CapContact CapCollection CapBankTransferAddRecipient CapBankWealth CapProfile
+description = Crédit Mutuel
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[cmmc]
+version = 201903161454
+capabilities = CapBankTransfer CapCollection CapBank CapContact
+description = Crédit Mutuel Massif Central
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[openedx]
+version = 201903031340
+capabilities = CapMessages
+description = Discussions on OpenEDX-powered coursewares
+maintainer = Simon Lipp <laiquo@hwold.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[dlfp]
+version = 201903031340
+capabilities = CapContent CapMessagesPost CapMessages
+description = Da Linux French Page news website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[canalplus]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = Canal Plus French TV
+maintainer = Nicolas Duhamel <nicolas@jombi.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[nalo]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Nalo
+maintainer = Vincent A <dev@indigo.re>
+license = LGPLv3+
+icon = 
+urls = 
+
+[meslieuxparis]
+version = 201903031340
+capabilities = CapDirectory
+description = MesLieux public Paris places
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[cmes]
+version = 201903311518
+capabilities = CapBankPockets CapBankWealth CapBank CapCollection
+description = Crédit Mutuel Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ipinfodb]
+version = 201903031340
+capabilities = CapGeolocIp
+description = IPInfoDB IP addresses geolocation service
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lameteoagricole]
+version = 201903031340
+capabilities = CapWeather
+description = lameteoagricole website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[gmf]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = GMF
+maintainer = Tony Malto <tmalto.bi@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[pastebin]
+version = 201903031340
+capabilities = CapPaste BasePasteModule
+description = Pastebin text sharing service
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[cragr]
+version = 201904071256
+capabilities = CapBankTransfer CapCollection CapBank CapContact CapBankTransferAddRecipient CapBankWealth CapProfile
+description = Crédit Agricole
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[weather]
+version = 201903031340
+capabilities = CapWeather
+description = Get forecasts from weather.com
+maintainer = Arno Renevier <arno@renevier.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[bandcamp]
+version = 201903031340
+capabilities = CapFile CapAudio
+description = Bandcamp music website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[amundi]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Amundi
+maintainer = James GALT <james.galt.bi@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[hybride]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = hybride website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[parolesmania]
+version = 201903031340
+capabilities = CapLyrics
+description = Paroles Mania lyrics website
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[poivy]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Poivy website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[bouygues]
+version = 201903311518
+capabilities = CapDocument CapCollection CapProfile CapMessagesPost CapMessages
+description = Bouygues Télécom French mobile phone provider
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[mediawiki]
+version = 201903031340
+capabilities = CapGallery CapFile CapContent CapImage
+description = Wikis running MediaWiki, like Wikipedia
+maintainer = Clément Schreiner <clemux@clemux.info>
+license = AGPLv3+
+icon = 
+urls = 
+
+[liberation]
+version = 201903031340
+capabilities = CapMessages
+description = Libération newspaper website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[happn]
+version = 201904071256
+capabilities = CapDating CapMessagesPost CapContact CapMessages
+description = Happn dating mobile application
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[suravenir]
+version = 201903031340
+capabilities = CapCollection CapBankWealth CapBank
+description = Assurance-vie Suravenir à travers différents courtiers (assurancevie.com, linxea, ...)
+maintainer = Arthur Huillet <arthur.huillet+weboob@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[carrefourbanque]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Carrefour Banque
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[opensubtitles]
+version = 201903031340
+capabilities = CapSubtitle
+description = Opensubtitles subtitle website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[nova]
+version = 201903031340
+capabilities = CapRadio CapCollection
+description = Nova French radio
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[amelipro]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Ameli website: French Health Insurance for Professionals
+maintainer = Christophe Lampin <weboob@lampin.net>
+license = LGPLv3+
+icon = 
+urls = 
+
+[logicimmo]
+version = 201903031340
+capabilities = CapHousing
+description = logicimmo website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[zerobin]
+version = 201904071256
+capabilities = CapPaste
+description = ZeroBin/0bin/PrivateBin encrypted pastebin
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[redmine]
+version = 201903031340
+capabilities = CapCollection CapBugTracker CapContent
+description = The Redmine project management web application
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[arte]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = Arte French and German TV
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[relaiscolis]
+version = 201903031340
+capabilities = CapParcel
+description = Relais colis parcel tracking website
+maintainer = Mickaël Thomas <mickael9@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[newsfeed]
+version = 201903031340
+capabilities = CapMessages
+description = Loads RSS and Atom feeds from any website
+maintainer = Clément Schreiner <clemux@clemux.info>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lefigaro]
+version = 201903031340
+capabilities = CapMessages
+description = Le Figaro French newspaper website
+maintainer = Julien Hebert <juke@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[twitter]
+version = 201903031340
+capabilities = CapCollection CapMessagesPost CapMessages
+description = twitter website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[bnporc]
+version = 201904071256
+capabilities = CapBankTransfer CapCollection CapBank CapContact CapBankTransferAddRecipient CapBankWealth CapMessages CapProfile
+description = BNP Paribas
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[blablacar]
+version = 201903031340
+capabilities = CapTravel
+description = blablacar website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[allocine]
+version = 201903031340
+capabilities = CapVideo CapCollection CapCalendarEvent CapImage CapCinema CapFile
+description = AlloCiné French cinema database service
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[caissedepargne]
+version = 201904071256
+capabilities = CapBankTransfer CapDocument CapBank CapContact CapCollection CapBankTransferAddRecipient CapBankWealth CapProfile
+description = Caisse d'Épargne
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[allrecipes]
+version = 201903031340
+capabilities = CapRecipe
+description = Allrecipes English recipe website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[paypal]
+version = 201904061454
+capabilities = CapCollection CapBank
+description = PayPal
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = LGPLv3+
+icon = 
+urls = 
+
+[yahoo]
+version = 201903031340
+capabilities = CapWeather
+description = Yahoo! Weather.
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[afer]
+version = 201903161454
+capabilities = CapCollection CapBankWealth CapBank
+description = Association française d'épargne et de retraite
+maintainer = James GALT <jgalt@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[creditdunord]
+version = 201904071256
+capabilities = CapCollection CapBankWealth CapBank CapProfile
+description = Crédit du Nord, Banque Courtois, Kolb, Nuger, Laydernier, Tarneaud, Société Marseillaise de Crédit
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[github]
+version = 201903031340
+capabilities = CapBugTracker
+description = GitHub issues tracking
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[fortuneo]
+version = 201903311518
+capabilities = CapBankTransfer CapCollection CapBank CapBankTransferAddRecipient CapBankWealth CapProfile
+description = Fortuneo
+maintainer = Gilles-Alexandre Quenot <gilles.quenot@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[sueurdemetal]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = SueurDeMetal French concerts list website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[biplan]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = lebiplan.org website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[capeasi]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = AXA Épargne Salariale
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[feedly]
+version = 201903031340
+capabilities = CapCollection CapMessages
+description = handle the popular RSS reading service Feedly
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[cic]
+version = 201903161454
+capabilities = CapBankTransfer CapCollection CapBankTransferAddRecipient CapBank CapContact
+description = CIC
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[tumblr]
+version = 201903031340
+capabilities = CapGallery
+description = images in tumblr blogs
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[wordreference]
+version = 201903031340
+capabilities = CapTranslate
+description = Free online translator
+maintainer = Lucien Loiseau <loiseau.lucien@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[hds]
+version = 201903031340
+capabilities = CapMessages
+description = Histoires de Sexe French erotic novels
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[citibank]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Citibank
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[vimeo]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = Vimeo video streaming website
+maintainer = François Revol <revol@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[guerrillamail]
+version = 201903031340
+capabilities = CapMessagesPost CapMessages
+description = GuerrillaMail temp mailbox
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[t411]
+version = 201903031340
+capabilities = CapTorrent
+description = T411 BitTorrent tracker
+maintainer = David Kremer <courrier@david-kremer.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[larousse]
+version = 201903031340
+capabilities = CapTranslate
+description = larousse dictionary translations
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ebonics]
+version = 201903031340
+capabilities = CapTranslate
+description = English to Ebonics translation service
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[tinder]
+version = 201903031340
+capabilities = CapDating CapMessagesPost CapMessages
+description = Tinder dating mobile application
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[sogecartenet]
+version = 201903031340
+capabilities = CapCollection CapBank
+description = Sogecarte Net
+maintainer = Vincent Paredes <vparedes@budget-insight.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[piratebay]
+version = 201903031340
+capabilities = CapTorrent
+description = The Pirate Bay BitTorrent tracker
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[explorimmo]
+version = 201903031340
+capabilities = CapHousing
+description = explorimmo website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[imdb]
+version = 201903031340
+capabilities = CapCinema
+description = Internet Movie Database service
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lyricsplanet]
+version = 201903031340
+capabilities = CapLyrics
+description = Lyricsplanet.com song lyrics website
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[rmll]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = Videos from RMLL
+maintainer = Guyou <guilhem.bonnefille@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[genericnewspaper]
+version = 201904061454
+capabilities = 
+description = Generic module that helps to handle newspapers modules
+maintainer = Julien Hebert <juke@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[youjizz]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = YouJizz pornographic video streaming website
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[bred]
+version = 201904061454
+capabilities = CapCollection CapBankWealth CapBank CapProfile
+description = Bred
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[anticaptcha]
+version = 201903031340
+capabilities = CapCaptchaSolver
+description = Anti-Captcha website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[taz]
+version = 201903031340
+capabilities = CapMessages
+description = Taz newspaper website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[jirafeau]
+version = 201903031340
+capabilities = CapPaste
+description = Jirafeau-based file upload website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[sprunge]
+version = 201903031340
+capabilities = CapPaste BasePasteModule
+description = Sprunge text sharing tool
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[meteofrance]
+version = 201903031340
+capabilities = CapWeather
+description = Get forecasts from the MeteoFrance website
+maintainer = Cedric Defortis <cedric@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[creditdunordpee]
+version = 201904071256
+capabilities = CapCollection CapBank
+description = Crédit du Nord Épargne Salariale
+maintainer = Ludovic LANGE <llange@users.noreply.github.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ing]
+version = 201904071256
+capabilities = CapBankTransfer CapDocument CapProfile CapCollection CapBankWealth CapBank
+description = ING France
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ina]
+version = 201903031340
+capabilities = CapVideo CapFile CapAudio CapImage
+description = INA French TV video archives
+maintainer = Christophe Benz <christophe.benz@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[playme]
+version = 201903031340
+capabilities = CapAccount CapDating CapMessagesPost CapMessages
+description = PlayMe dating mobile application
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[pap]
+version = 201903031340
+capabilities = CapHousing
+description = French housing website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[minutes20]
+version = 201903031340
+capabilities = CapMessages
+description = 20 Minutes French newspaper website
+maintainer = Julien Hebert <juke@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[banqueaccord]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Banque Accord
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[dhl]
+version = 201903031340
+capabilities = CapParcel
+description = DHL website
+maintainer = Matthieu Weber <mweber+weboob@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[leboncoin]
+version = 201903031340
+capabilities = CapHousing
+description = search house on leboncoin website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[youporn]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = YouPorn pornographic video streaming website
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[torrentz]
+version = 201903031340
+capabilities = CapTorrent
+description = Torrentz Search Engine.
+maintainer = Matthieu Weber <weboob@weber.fi.eu.org>
+license = AGPL
+icon = 
+urls = 
+
+[societegenerale]
+version = 201904061454
+capabilities = CapBankTransfer CapDocument CapBank CapContact CapCollection CapBankTransferAddRecipient CapBankWealth CapProfile
+description = Société Générale
+maintainer = Jocelyn Jaubert <jocelyn.jaubert@gmail.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[tvsubtitles]
+version = 201903031340
+capabilities = CapSubtitle
+description = Tvsubtitles subtitle website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[asana]
+version = 201903031340
+capabilities = CapBugTracker
+description = Asana
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[groupamaes]
+version = 201903311518
+capabilities = CapBankPockets CapBankWealth CapBank CapCollection
+description = Groupama Épargne Salariale
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = LGPLv3+
+icon = 
+urls = 
+
+[cci]
+version = 201903031340
+capabilities = CapJob
+description = cci website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[peertube]
+version = 201903161454
+capabilities = CapVideo CapFile CapImage
+description = Peertube
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[nef]
+version = 201903161454
+capabilities = CapBankTransfer CapCollection CapBank
+description = La Nef
+maintainer = Damien Cassou <damien@cassou.me>
+license = LGPLv3+
+icon = 
+urls = 
+
+[infomaniak]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Infomaniak
+maintainer = Vincent A <dev@indigo.re>
+license = LGPLv3+
+icon = 
+urls = 
+
+[entreparticuliers]
+version = 201903031340
+capabilities = CapHousing
+description = entreparticuliers.com website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[banquepopulaire]
+version = 201904061454
+capabilities = CapCollection CapBankWealth CapBank CapContact CapProfile
+description = Banque Populaire
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[humanis]
+version = 201903311518
+capabilities = CapBankPockets CapBankWealth CapBank CapCollection
+description = Humanis Épargne Salariale
+maintainer = Jean Walrave <jwalrave@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[razibus]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = site annonçant les évènements attendus par les punks a chiens
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[themisbanque]
+version = 201903311518
+capabilities = CapCollection CapBank CapProfile
+description = Themis
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[yggtorrent]
+version = 201903031340
+capabilities = CapTorrent
+description = YGG BitTorrent tracker
+maintainer = Julien Veyssier <eneiluj@posteo.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[pixtoilelibre]
+version = 201903031340
+capabilities = CapPaste
+description = toile-libre image hosting website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[tapatalk]
+version = 201903311518
+capabilities = CapMessages
+description = Tapatalk-compatible sites
+maintainer = Simon Lipp <laiquo@hwold.net>
+license = AGPLv3+
+icon = 
+urls = 
+
+[parolesmusique]
+version = 201903031340
+capabilities = CapLyrics
+description = paroles-musique lyrics website
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[trainline]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = trainline website
+maintainer = Edouard Lambert <elambert@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[ovh]
+version = 201903161454
+capabilities = CapDocument CapCollection
+description = Ovh
+maintainer = Vincent Paredes <vparedes@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[n26]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Bank N26
+maintainer = Benjamin Bouvier <public@benj.me>
+license = LGPLv3+
+icon = 
+urls = 
+
+[residentadvisor]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = residentadvisor website
+maintainer = Alexandre Morignot <erdnaxeli@cervoi.se>
+license = AGPLv3+
+icon = 
+urls = 
+
+[linebourse]
+version = 201903311518
+capabilities = CapCollection CapBank
+description = linebourse website
+maintainer = Vincent Ardisson <vardisson@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[deathbycaptcha]
+version = 201903031340
+capabilities = CapCaptchaSolver
+description = Death By Captcha
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[ganassurances]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = Gan Assurances
+maintainer = Romain Bignon <romain@weboob.org>
+license = LGPLv3+
+icon = 
+urls = 
+
+[myhabit]
+version = 201903031340
+capabilities = CapCollection CapShop
+description = MYHABIT
+maintainer = Oleg Plakhotniuk <olegus8@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[agendadulibre]
+version = 201903031340
+capabilities = CapCollection CapCalendarEvent
+description = agendadulibre website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[radiofrance]
+version = 201903031340
+capabilities = CapRadio CapFile CapAudio CapCollection
+description = Radios of Radio France: Inter, Info, Bleu, Culture, Musique, FIP, Le Mouv'
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[youtube]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = YouTube video streaming website
+maintainer = Laurent Bachelier <laurent@bachelier.name>
+license = AGPLv3+
+icon = 
+urls = 
+
+[amazon]
+version = 201904061454
+capabilities = CapDocument CapCollection
+description = Amazon
+maintainer = Théo Dorée <tdoree@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[regionsjob]
+version = 201903031340
+capabilities = CapJob
+description = regionsjob website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[xhamster]
+version = 201903031340
+capabilities = CapVideo CapFile CapImage
+description = xhamster website
+maintainer = Roger Philibert <roger.philibert@gmail.com>
+license = AGPLv3+
+icon = 
+urls = 
+
+[myedenred]
+version = 201903161454
+capabilities = CapCollection CapBank
+description = MyEdenRed
+maintainer = Théo Dorée <tdoree@budget-insight.com>
+license = LGPLv3+
+icon = 
+urls = 
+
+[prixcarburants]
+version = 201903031340
+capabilities = CapPriceComparison
+description = French governement website to compare fuel prices
+maintainer = Romain Bignon <romain@weboob.org>
+license = AGPLv3+
+icon = 
+urls = 
+
+[podnapisi]
+version = 201903031340
+capabilities = CapSubtitle
+description = Podnapisi movies and tv series subtitle website
+maintainer = Julien Veyssier <julien.veyssier@aiur.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[foncia]
+version = 201903031340
+capabilities = CapHousing
+description = Foncia housing website.
+maintainer = Phyks (Lucas Verney) <phyks@phyks.me>
+license = AGPLv3+
+icon = 
+urls = 
+
+[colisprive]
+version = 201903031340
+capabilities = CapParcel
+description = Colisprive parcel tracking website
+maintainer = Florent Fourcot <weboob@flo.fourcot.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lolix]
+version = 201903031340
+capabilities = CapJob
+description = Lolix French free software employment website
+maintainer = Bezleputh <carton_ben@yahoo.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[itella]
+version = 201903031340
+capabilities = CapParcel
+description = Itella website
+maintainer = Matthieu Weber <mweber+weboob@free.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[lyricsmode]
+version = 201903031340
+capabilities = CapLyrics
+description = Lyricsmode.com lyrics website
+maintainer = Julien Veyssier <eneiluj@gmx.fr>
+license = AGPLv3+
+icon = 
+urls = 
+
+[funmooc]
+version = 201903031340
+capabilities = CapVideo CapCollection CapFile CapImage
+description = France-Université-Numérique MOOC website
+maintainer = Vincent A <dev@indigo.re>
+license = AGPLv3+
+icon = 
+urls = 
+
+[virginradio]
+version = 201903031340
+capabilities = CapRadio CapCollection
+description = VirginRadio french radio
+maintainer = Johann Broudin <Johann.Broudin@6-8.fr>
+license = AGPLv3+
+icon = 
+urls = 
+

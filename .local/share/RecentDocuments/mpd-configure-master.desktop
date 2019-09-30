@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=mpd-configure-master
+Type=Link
+URL[$e]=file:$HOME/mpd-configure-master
+X-KDE-LastOpenedWith=
