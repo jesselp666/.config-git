@@ -55,7 +55,7 @@ dwm_clock () {
     else
         printf "DAT%s" "$(date "+%l:%M%P")"
     fi
-    printf "%s\n" #"$SEP"#
+    printf "%s\n" "$SEP"
 }
 
 dwm_date () {
@@ -71,7 +71,7 @@ dwm_date () {
 dwm_pulse () {
     VOL=$(pamixer --get-volume-human | tr -d '%')
  
-    printf "%s"  "$SEP"
+    printf "%s"  #"$SEP"#
     if [ "$IDENTIFIER" = "unicode" ]; then
         if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
             printf "🔇(mute)" "$PERC"
@@ -154,5 +154,5 @@ dwm_wttr () {
 # module order #
 while true
 do
-    xsetroot -name "$(dwm_clock)$(dwm_cmus)$(dwm_pulse)$(dwm_date)$(dwm_backlight)$(dwm_wttr)$(dwm_pwrsupply)$(dwm_battery)"
+    xsetroot -name "$(dwm_clock)$(dwm_pulse)$(dwm_cmus)$(dwm_date)$(dwm_backlight)$(dwm_wttr)$(dwm_pwrsupply)$(dwm_battery)"
 done

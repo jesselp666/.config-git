@@ -15,8 +15,4 @@ settings:
       wq: quit --save
       wqa: quit --save
   completion.height:
-    global: 35%
-  content.geolocation:
-    global: false
-  content.user_stylesheets:
-    global: null
+    global: 40%
