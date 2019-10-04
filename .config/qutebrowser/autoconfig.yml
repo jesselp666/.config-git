@@ -14,5 +14,9 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  content.plugins:
+  completion.height:
+    global: 35%
+  content.geolocation:
     global: false
+  content.user_stylesheets:
+    global: null

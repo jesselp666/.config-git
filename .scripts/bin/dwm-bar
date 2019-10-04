@@ -10,10 +10,10 @@ dwm_battery () {
     CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
     STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
-    printf "%s" "$SEP"
+    printf "%s" #"$SEP"#
     if [ "$IDENTIFIER" = "unicode" ]; then
-        if [ "$STATUS" = "Charging" ]; then
-            printf "🔌%s%%" "$CHARGE"
+        if [ "$STATUS" = "Charging" ]; then 
+            printf "%s%%" "$CHARGE"
         else
             printf "🔋%s%%" "$CHARGE"
         fi
@@ -21,6 +21,17 @@ dwm_battery () {
         printf "BAT %s%%" "$CHARGE"
     fi
     printf "%s\n" #"$SEP2"#
+}
+
+dwm_pwrsupply () {
+    PWRSUPPLY=$(cat /sys/class/power_supply/AC/online)
+
+
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        if [ "$PWRSUPPLY" = "1" ]; then 
+            printf "%s" "🔌"
+        fi
+    fi
 }
 
 dwm_mem () {
@@ -40,7 +51,7 @@ dwm_mem () {
 dwm_clock () {
     printf "%s" #"$SEP"#
     if [ "$IDENTIFIER" = "unicode" ]; then
-        printf "%s" "$(date "+%l:%M%P")"
+        printf " %s" "$(date "+%l:%M%P")"
     else
         printf "DAT%s" "$(date "+%l:%M%P")"
     fi
@@ -63,7 +74,7 @@ dwm_pulse () {
     printf "%s"  "$SEP"
     if [ "$IDENTIFIER" = "unicode" ]; then
         if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
-            printf "🔇muted"
+            printf "🔇(mute)" "$PERC"
         elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
             printf "🔈%s%%" "$VOL"
         elif [ "$VOL" -gt 33 ] && [ "$VOL" -le 66 ]; then
@@ -72,7 +83,7 @@ dwm_pulse () {
             printf "🔊%s%%" "$VOL"
         fi
    else
-       if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
+       if [ "$VOL" = "0%" ] || [ "$VOL" -eq 0 ]; then
            printf "MUTE"
        elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
            printf "VOL %s%%" "$VOL"
@@ -129,7 +140,7 @@ dwm_cmus () {
 }
 
 dwm_backlight () {
-    printf "%s☀%.0f%s\n" "$SEP" "$(xbacklight)" "$PERC"  
+    printf "%s💡%.0f%s%s\n" "$SEP" "$(xbacklight)" "$PERC" "$SEP"
 }
 
 dwm_updates () {
@@ -137,11 +148,11 @@ dwm_updates () {
 }
 
 dwm_wttr () {
-    printf "%s🌡%s" "$SEP" "$(cat ~/.config/dwm/dwm-wttr.txt)"
+    printf "🌡%s%s" "$(cat ~/.config/dwm/dwm-wttr.txt)" "$SEP"
 }
 
 # module order #
 while true
 do
-    xsetroot -name "$(dwm_clock)$(dwm_cmus)$(dwm_date)$(dwm_wttr)$(dwm_backlight)$(dwm_pulse)$(dwm_battery)"
+    xsetroot -name "$(dwm_clock)$(dwm_cmus)$(dwm_pulse)$(dwm_date)$(dwm_backlight)$(dwm_wttr)$(dwm_pwrsupply)$(dwm_battery)"
 done

@@ -17,6 +17,7 @@ export QT_QPA_PLATFORMTHEME="qt5ct"
 [ -d "$HOME/.scripts/bin" ] && PATH="$HOME/.scripts/bin:$PATH"
 [ -d "$HOME/.config/polybar/bin" ] && PATH="$HOME/.config/polybar/bin:$PATH"
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+usr/bin/gnome-keyring-daemon --start --components=secrets &
 pulseeffects --gapplication-service --load-preset freeqy &
 /usr/lib/at-spi-bus-launcher --launch-immediately &
 gnome-keyring-daemon --start --components=pkcs11 &

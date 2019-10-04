@@ -59,6 +59,14 @@ c.auto_save.session = False
 # Type: Bool
 c.content.dns_prefetch = True
 
+# Allow websites to request geolocations.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+c.content.geolocation = False
+
 # A list of patterns that should always be loaded, despite being ad-
 # blocked. Note this whitelists blocked hosts, not first-party URLs. As
 # an example, if `example.org` loads an ad from `ads.example.org`, the
@@ -68,6 +76,12 @@ c.content.dns_prefetch = True
 # from hostblocking.
 # Type: List of UrlPattern
 c.content.host_blocking.whitelist = ['*.myfreecams.com', '*.thepiratebay.org']
+
+# Allow JavaScript to read from or write to the clipboard. With
+# QtWebEngine, writing the clipboard as response to a user interaction
+# is always allowed.
+# Type: Bool
+c.content.javascript.can_access_clipboard = True
 
 # Enable JavaScript.
 # Type: Bool
@@ -80,6 +94,10 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Enable JavaScript.
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
+
+# Show javascript prompts.
+# Type: Bool
+c.content.javascript.prompt = False
 
 # Allow websites to record audio/video.
 # Type: BoolAsk
@@ -133,9 +151,17 @@ c.content.register_protocol_handler = True
 #   - ask
 c.content.ssl_strict = True
 
+# List of user stylesheet filenames to use.
+# Type: List of File, or File
+c.content.user_stylesheets = []
+
 # Enable WebGL.
 # Type: Bool
 c.content.webgl = True
+
+# Height (in pixels or as percentage of the window) of the completion.
+# Type: PercOrInt
+c.completion.height = '35%'
 
 # Directory to save downloads to. If unset, a sensible OS-specific
 # default is used.
@@ -329,6 +355,10 @@ c.tabs.indicator.width = 0
 # Type: Padding
 c.tabs.indicator.padding = {'bottom': 0, 'left': 0, 'right': 0, 'top': 0}
 
+# Shrink pinned tabs down to their contents.
+# Type: Bool
+c.tabs.pinned.shrink = True
+
 # Page to open if :open -t/-b/-w is used without URL. Use `about:blank`
 # for a blank page.
 # Type: FuzzyUrl
@@ -343,7 +373,7 @@ c.url.default_page = '~/.html/newtab.html'
 # used by prepending the search engine name to the search term, e.g.
 # `:open google qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://www.startpage.com/do/dsearch?query={}'}
+c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
@@ -353,6 +383,11 @@ c.url.start_pages = '~/.html/hello.html'
 # Wayland.
 # Type: Bool
 c.window.hide_decoration = True
+
+# Format to use for the window title. The same placeholders like for
+# `tabs.title.format` are defined.
+# Type: FormatString
+c.window.title_format = '{perc}{current_title}{title_sep}qutebrowser'
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.

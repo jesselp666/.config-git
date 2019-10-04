@@ -18,10 +18,6 @@ static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
 static const char col_cyan[]        = "#4BACB7";
-static const char col_black[]       = "#000000";
-static const char col_red[]         = "#ff0000";
-static const char col_yellow[]      = "#FFF700";
-static const char col_white[]       = "#ffffff";
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
@@ -34,11 +30,6 @@ static const char *colors[][3]      = {
 	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]   = { col_gray4, col_cyan,  col_cyan  },
 	[SchemeTitle] = { col_gray3, col_gray1, col_gray2 },
-    /* Status Module Background Color */
-    [SchemeNorm] =   { col_gray3, col_gray1,  col_gray2  },
-    [SchemeSel]  =   { col_gray4, col_cyan,   col_cyan  },
-    [SchemeWarn] =   { col_black, col_yellow, col_yellow  },
-    [SchemeUrgent]=  { col_white, col_red,    col_red  },
 };
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */

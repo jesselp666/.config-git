@@ -707,14 +707,6 @@
 /home/jll/Music/a/A.T.B.A.N. Klann/Grass Roots/A.T.B.A.N. Klann - Grass Roots - 14 - Stroling.mp3
 /home/jll/Music/a/A.T.B.A.N. Klann/Grass Roots/A.T.B.A.N. Klann - Grass Roots - 15 - La Borio Woman Beater.mp3
 /home/jll/Music/a/A.T.B.A.N. Klann/Grass Roots/A.T.B.A.N. Klann - Grass Roots - 16 - Let Me Get Down.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 01 - Second to Sun.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 02 - Fictitious Glide.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 03 - Fraudulent Cloth.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 04 - Live and Live Again.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 05 - Faux King Christ.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 06 - Tortoise the Titan.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 07 - When the Beast.mp3
-/home/jll/Music/a/Atheist/Jupiter/Atheist - Jupiter - 08 - Third Person.mp3
 /home/jll/Music/a/Atheist/Piece Of Time/Atheist - Piece Of Time - 01 - Piece Of Time.mp3
 /home/jll/Music/a/Atheist/Piece Of Time/Atheist - Piece Of Time - 02 - Unholy War.mp3
 /home/jll/Music/a/Atheist/Piece Of Time/Atheist - Piece Of Time - 03 - Room With A View.mp3
@@ -1180,16 +1172,6 @@
 /home/jll/Music/b/Baroness/Red Album/Baroness - Red Album - 09 - O'Appalachia.mp3
 /home/jll/Music/b/Baroness/Red Album/Baroness - Red Album - 10 - Grad.mp3
 /home/jll/Music/b/Baroness/Red Album/Baroness - Red Album - 11 - Hidden Track.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 01 - Prelude.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 02 - Nordland.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 03 - Vinterblot.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 04 - Dragons Breath.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 05 - Ring of Gold.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 06 - Foreverdark Woods.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 07 - Broken Sword.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 08 - Great Hall Awaits a Fallen Brother.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 09 - Mother Earth Father Thunder.mp3
-/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 10 - Heimfard.mp3
 /home/jll/Music/b/Bathory/Bathory/Bathory - Bathory - 01 - Storm of Damnation.mp3
 /home/jll/Music/b/Bathory/Bathory/Bathory - Bathory - 02 - Hades.mp3
 /home/jll/Music/b/Bathory/Bathory/Bathory - Bathory - 03 - Reaper.mp3
@@ -1210,16 +1192,16 @@
 /home/jll/Music/b/Bathory/The Return/Bathory - The Return...... - 08 - Sadist.mp3
 /home/jll/Music/b/Bathory/The Return/Bathory - The Return...... - 09 - Return Of The Darkness And Evil.mp3
 /home/jll/Music/b/Bathory/The Return/Bathory - The Return...... - 10 - Outro.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 01 - Nocternal Obeisance.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 02 - Massacre.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 03 - Woman Of Dark Desires.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 04 - Call From The Grave.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 05 - Equimanthorn.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 06 - Enter The Eternal Fire.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 07 - Chariots Of Fire.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 08 - 13 Candles.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 09 - Of Doom.mp3
-/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/Bathory - Under the Sign of the Black Mark - 10 - Outro.mp3
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/01 Nocternal Obeisance.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/02 Massacre.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/03 Woman of Dark Desires.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/04 Call from the Grave.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/05 Equimanthorn.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/06 Enter the Eternal Fire.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/07 Chariots of Fire.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/08 13 Candles.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/09 Of Doom.m4a
+/home/jll/Music/b/Bathory/Under the Sign of the Black Mark/10 Outro.m4a
 /home/jll/Music/b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 01 - Odens Ride Over Nordland.mp3
 /home/jll/Music/b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 02 - A Fine Day to Die.mp3
 /home/jll/Music/b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 03 - The Golden Walls of Heaven.mp3
@@ -1229,6 +1211,16 @@
 /home/jll/Music/b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 07 - Dies Irae.mp3
 /home/jll/Music/b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 08 - Blood Fire Death.mp3
 /home/jll/Music/b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 09 - Untitled.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 01 - Prelude.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 02 - Nordland.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 03 - Vinterblot.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 04 - Dragons Breath.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 05 - Ring of Gold.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 06 - Foreverdark Woods.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 07 - Broken Sword.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 08 - Great Hall Awaits a Fallen Brother.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 09 - Mother Earth Father Thunder.mp3
+/home/jll/Music/b/Bathory/Nordland I/Bathory - Nordland I - 10 - Heimfard.mp3
 /home/jll/Music/b/Beastie Boys/Licensed to Ill/Beastie Boys - Licensed to Ill - 01 - Rhymin & Stealin.mp3
 /home/jll/Music/b/Beastie Boys/Licensed to Ill/Beastie Boys - Licensed to Ill - 02 - The New Style.mp3
 /home/jll/Music/b/Beastie Boys/Licensed to Ill/Beastie Boys - Licensed to Ill - 03 - She's Crafty.mp3
@@ -2383,24 +2375,6 @@
 /home/jll/Music/c/Carbonized/For The Security/Carbonized - For The Security - 08 - Purified (From The Sulfer).mp3
 /home/jll/Music/c/Carbonized/For The Security/Carbonized - For The Security - 09 - For The Security.mp3
 /home/jll/Music/c/Carbonized/For The Security/Carbonized - For The Security - 10 - Monument.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 01 - Reek Of Putrefaction.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 02 - Exhume To Consume.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 03 - Excoriating Abdominal Emanation.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 04 - Ruptured In Purulence.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 05 - Empathological Necroticism.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 06 - Embryonic Necropsy And Devourment.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 07 - Swarming Vugar Mass Of Infected Virulency.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 08 - Cadaveric Incubator Of Endoparasites.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 09 - Slash Dementia.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 10 - Crepitating Bowel Erosion.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 01 - Inpropagation.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 02 - Corporal Jigsore Quandary.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 03 - Symposium of Sickness.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 04 - Pedigree Butchery.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 05 - Incarnated Solvent Abuse.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 06 - Carneous Cacoffiny.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 07 - Lavaging Expectorate of Lysergide Composition.mp3
-/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 08 - Forensic ClinicismThe Sanguine Article.mp3
 /home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 01 - Genital Grinder.mp3
 /home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 02 - Regurgitation of Giblets.mp3
 /home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 03 - Festerday.mp3
@@ -2436,6 +2410,34 @@
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 20 - Oxidised Razor Masticator.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 21 - Mucopurulence Execretor.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 22 - Malignant Defecation.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 01 - Reek Of Putrefaction.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 02 - Exhume To Consume.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 03 - Excoriating Abdominal Emanation.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 04 - Ruptured In Purulence.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 05 - Empathological Necroticism.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 06 - Embryonic Necropsy And Devourment.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 07 - Swarming Vugar Mass Of Infected Virulency.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 08 - Cadaveric Incubator Of Endoparasites.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 09 - Slash Dementia.mp3
+/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 10 - Crepitating Bowel Erosion.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 01 - Inpropagation.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 02 - Corporal Jigsore Quandary.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 03 - Symposium of Sickness.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 04 - Pedigree Butchery.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 05 - Incarnated Solvent Abuse.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 06 - Carneous Cacoffiny.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 07 - Lavaging Expectorate of Lysergide Composition.mp3
+/home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 08 - Forensic ClinicismThe Sanguine Article.mp3
+/home/jll/Music/c/Carcass/Heartwork/01-buried_dreams-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/02-carnal_forge-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/03-no_love_lost-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/04-heartwork-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/05-embodiment-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/06-this_mortal_coil-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/07-arbeit_macht_fleisch-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/08-blind_bleeding_the_blind-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/09-doctrinal_expletives-evighet.mp3
+/home/jll/Music/c/Carcass/Heartwork/10-death_certificate-evighet.mp3
 /home/jll/Music/c/Carnage/Dark Recollections/Carnage - Dark Recollections - 01 - Dark Recollections.mp3
 /home/jll/Music/c/Carnage/Dark Recollections/Carnage - Dark Recollections - 02 - Torn Apart.mp3
 /home/jll/Music/c/Carnage/Dark Recollections/Carnage - Dark Recollections - 03 - Blasphemies of the Flesh.mp3
