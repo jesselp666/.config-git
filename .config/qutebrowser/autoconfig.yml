@@ -8,11 +8,14 @@ config_version: 2
 settings:
   aliases:
     global:
+      hc: history-clear
       q: close
       qa: quit
       w: session-save
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  completion.height:
-    global: 40%
+  url.searchengines:
+    global:
+      DEFAULT: https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}
+      ma: https://www.metal-archives.com/search?searchString={}&type=band_name

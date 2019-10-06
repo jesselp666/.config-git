@@ -2375,19 +2375,6 @@
 /home/jll/Music/c/Carbonized/For The Security/Carbonized - For The Security - 08 - Purified (From The Sulfer).mp3
 /home/jll/Music/c/Carbonized/For The Security/Carbonized - For The Security - 09 - For The Security.mp3
 /home/jll/Music/c/Carbonized/For The Security/Carbonized - For The Security - 10 - Monument.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 01 - Genital Grinder.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 02 - Regurgitation of Giblets.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 03 - Festerday.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 04 - Limb from Limb.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 05 - Rotten to the Core.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 06 - Excreted Alive.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 07 - Malignant Defecation.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 08 - Fermenting Innards.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 09 - Necro-Cannibal Bloodfeast.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 10 - Psychopathologist.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 11 - Die in Pain.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 12 - Pungent Excruciation.mp3
-/home/jll/Music/c/Carcass/Flesh Ripping Sonic Torment (demo)/Carcass - Flesh Ripping Sonic Torment (demo) - 13 - Face Meltaaaargh.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 01 - Genital Grinder.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 02 - Regurgitation of Giblets.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 03 - Maggot Colony.mp3
@@ -2438,6 +2425,33 @@
 /home/jll/Music/c/Carcass/Heartwork/08-blind_bleeding_the_blind-evighet.mp3
 /home/jll/Music/c/Carcass/Heartwork/09-doctrinal_expletives-evighet.mp3
 /home/jll/Music/c/Carcass/Heartwork/10-death_certificate-evighet.mp3
+/home/jll/Music/c/Carcass/Swansong/01. Keep On Rotting In The Free World.mp3
+/home/jll/Music/c/Carcass/Swansong/02. Tomorrow Belongs To Nobody.mp3
+/home/jll/Music/c/Carcass/Swansong/03. Black Star.mp3
+/home/jll/Music/c/Carcass/Swansong/04. Cross My Heart.mp3
+/home/jll/Music/c/Carcass/Swansong/05. Childs Play.mp3
+/home/jll/Music/c/Carcass/Swansong/06. Room 101.mp3
+/home/jll/Music/c/Carcass/Swansong/07. Polarized.mp3
+/home/jll/Music/c/Carcass/Swansong/08. Generation Hexed.mp3
+/home/jll/Music/c/Carcass/Swansong/09. Firm Hand.mp3
+/home/jll/Music/c/Carcass/Swansong/10. Rxxk The Vote.mp3
+/home/jll/Music/c/Carcass/Swansong/11. Don't Believe A Word.mp3
+/home/jll/Music/c/Carcass/Swansong/12. Go To Hell.mp3
+/home/jll/Music/c/Carcass/Swansong/13. Death Rider Da.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/01. 1985.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/02. Thrasher's Abattoir.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/03. Cadaver Pouch Conveyor System.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/04. A Congealed Clot Of Blood.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/05. The Master Butcher's Apron.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/06. Noncompliance to ASTM F 899-12 Standard.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/07. The Granulating Dark Satanic Mills.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/08. Unfit For Human Consumption.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/09. 316 L Grade Surgical Steel.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/10. Captive Bolt Pistol.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/11. Mount Of Execution.mp3
+/home/jll/Music/c/Carcass/Surgical Steel/12. A Wraith In The Apparatus (Bonus Track).mp3
+/home/jll/Music/c/Carcass/Surgical Steel/13. Intensive Battery Brooding (Bonus Track).mp3
+/home/jll/Music/c/Carcass/Surgical Steel/14. Zochrot.mp3
 /home/jll/Music/c/Carnage/Dark Recollections/Carnage - Dark Recollections - 01 - Dark Recollections.mp3
 /home/jll/Music/c/Carnage/Dark Recollections/Carnage - Dark Recollections - 02 - Torn Apart.mp3
 /home/jll/Music/c/Carnage/Dark Recollections/Carnage - Dark Recollections - 03 - Blasphemies of the Flesh.mp3

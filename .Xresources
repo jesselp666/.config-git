@@ -23,10 +23,10 @@ URxvt*letterSpace:            0
 Xft*antialias:                true
 Xft*hinting:                  full
 /*COLORS*/
-URxvt*background:             [80]#1F292E
+URxvt*background:             [80]#000000
 URxvt*foreground:             #d6d6d6
 URxvt*color0:                 #40494D
-URxvt*color1:                 #B84952
+URxvt*color1:                 #FF003A
 URxvt*color2:                 #46B59C
 URxvt*color3:                 #FBFF36
 URxvt*color4:                 #4BACB7
@@ -34,7 +34,7 @@ URxvt*color5:                 #7668C4
 URxvt*color6:                 #4BACB7
 URxvt*color7:                 #D6D6D6
 URxvt*color8:                 #40494D
-URxvt*color9:                 #B84952
+URxvt*color9:                 #FF003A 
 URxvt*color10:                #46B59C
 URxvt*color11:                #FBFF36
 URxvt*color12:                #4BACB7

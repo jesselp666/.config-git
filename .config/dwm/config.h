@@ -5,7 +5,7 @@
 |____/|_____|_|_|_|
                    
 window manager settings */
-static const unsigned int borderpx  = 2;    /* border pixel of windows */
+static const unsigned int borderpx  = 3;    /* border pixel of windows */
 static const unsigned int gappx     = 0;    /* gaps between tiled windows */
 static const unsigned int snap      = 10;   /* snap pixel */
 static const int showbar            = 1;    /* 0 means no bar */
@@ -17,14 +17,14 @@ static const char col_gray2[]       = "#111111";
 static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
-static const char col_cyan[]        = "#4BACB7";
+static const char col_cyan[]        = "#F85A00";
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int baralpha = 0x80;
-static const unsigned int borderalpha = 0x80;
+static const unsigned int baralpha = 0xA6;
+static const unsigned int borderalpha = 0xA6;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },

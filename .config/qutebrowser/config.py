@@ -9,7 +9,7 @@
 # Aliases for commands. The keys of the given dictionary are the
 # aliases, while the values are the commands they map to.
 # Type: Dict
-c.aliases = {'q': 'close', 'qa': 'quit', 'w': 'session-save', 'wc': 'config-write-py --force', 'wq': 'quit --save', 'wqa': 'quit --save'}
+c.aliases = {'hc': 'history-clear', 'q': 'close', 'qa': 'quit', 'w': 'session-save', 'wc': 'config-write-py --force', 'wq': 'quit --save', 'wqa': 'quit --save'}
 
 # Backend to use to display websites. qutebrowser supports two different
 # web rendering engines / backends, QtWebKit and QtWebEngine. QtWebKit
@@ -373,7 +373,7 @@ c.url.default_page = '~/.html/newtab.html'
 # used by prepending the search engine name to the search term, e.g.
 # `:open google qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}'}
+c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}', 'ma': 'https://www.metal-archives.com/search?searchString={}&type=band_name'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
