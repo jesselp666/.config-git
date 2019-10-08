@@ -1707,6 +1707,17 @@
 /home/jll/Music/b/Black Sabbath/Past Lives (Disc 2)/Black Sabbath - Past Lives (Disc 2) - 07 - N.I.B.mp3
 /home/jll/Music/b/Black Sabbath/Past Lives (Disc 2)/Black Sabbath - Past Lives (Disc 2) - 08 - Behind The Wall Of Sleep.mp3
 /home/jll/Music/b/Black Sabbath/Past Lives (Disc 2)/Black Sabbath - Past Lives (Disc 2) - 09 - Fairies Wear Boots.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/01 - Game Over.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/02 - Smile.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/03 - Sound of Silence.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/04 - Rock 'n' Roll Circus.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/05 - New Song.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/06 - Give Up The Gost.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/07 - Revolution of The Heart.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/08 - Waste of Space.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/09 - Deep Wound.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/10 - Better the Devil.mp3
+/home/jll/Music/b/Blackstar/Barbed Wire Soul/11 - Instrumental.mp3
 /home/jll/Music/b/Black Tusk/Taste The Sin/Black Tusk - Taste The Sin - 01 - Embrace The Madness.mp3
 /home/jll/Music/b/Black Tusk/Taste The Sin/Black Tusk - Taste The Sin - 02 - Snake Charmer.mp3
 /home/jll/Music/b/Black Tusk/Taste The Sin/Black Tusk - Taste The Sin - 03 - Red Eyes, Black Skies.mp3

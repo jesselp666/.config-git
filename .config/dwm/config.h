@@ -17,7 +17,7 @@ static const char col_gray2[]       = "#111111";
 static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
-static const char col_cyan[]        = "#F85A00";
+static const char col_cyan[]        = "#FF7700";
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
@@ -115,7 +115,7 @@ static const char *termcmd[]     =  { "st", NULL };
 static const char *lockcmd[]     =  { "slimlock", NULL };
 static const char *webcmd[]      =  { "qutebrowser", NULL };
 static const char *altwebcmd[]   =  { "chromium", NULL };
-static const char *filemancmd[]  =  { "pcmanfm", NULL };
+static const char *filemancmd[]  =  { "pcmanfm-qt", NULL };
 static const char *musiccmd[]    =  { "dwm-music", NULL };
 static const char *wttrcmd[]     =  { "wttr", NULL };
 static const char *niccmd[]      =  { "nicotine", NULL };

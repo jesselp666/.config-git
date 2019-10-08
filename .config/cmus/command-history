@@ -1,3 +1,12 @@
+set color_win_fg=blue
+set color_win_fg=202
+set color_win_fg=orange
+set color_win_fg=white
+set color_win_cur=lightgreen
+set color_win_cur=blue
+set color_win_cur=202
+set color_win_cur_sel_fg=202
+set color_win_cur_sel_bg=black
 set color_win_sel_fg=202
 set color_win_sel_fg=lightgreen
 set color_win_sel_bg=black

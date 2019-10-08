@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>oomox-October-Rust</name>
+	<name>oomox-Halloween</name>
 	<author>Satyajit Sahoo</author>
 	<copyright>GPL-3.0+</copyright>
 	<date>11 December 2013</date>
@@ -11,7 +11,7 @@
 <!-- ::: CONSTANTS ::: -->
 <constant name="C_titlebar_focused" value="#000000" />
 <constant name="C_titlebar_unfocused" value="#000000" />
-<constant name="C_border_focused" value="#f85a00" />
+<constant name="C_border_focused" value="#ff7700" />
 <constant name="C_border_unfocused" value="#080808" />
 <constant name="C_title_focused" value="#d6d6d6" />
 <constant name="C_title_unfocused" value="blend/#d6d6d6/#000000/0.4" />
