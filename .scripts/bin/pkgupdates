@@ -1,2 +1,3 @@
 #!/bin/sh
-checkupdates+aur | sed '/^$/d'| awk '{print NR}' > /home/jll/.config/dwm/update-check.txt
+checkupdates+aur | grep . -c > ~/.config/dwm/update-check.txt &&
+dwmblockskill

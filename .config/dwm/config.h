@@ -18,6 +18,12 @@ static const char col_gray3[]       = "#D6D6D6";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
 static const char col_cyan[]        = "#FF7700";
+static const char col_black[]       = "#000000";
+static const char col_red[]         = "#FF003A";
+static const char col_yellow[]      = "#FFFA44";
+static const char col_white[]       = "#00FF62";
+static const char col_blue[]        = "#00D7FF";
+static const char col_orange[]      = "#FF7700";
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
@@ -25,17 +31,29 @@ static const char col_cyan[]        = "#FF7700";
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
 static const unsigned int baralpha = 0xA6;
 static const unsigned int borderalpha = 0xA6;
+static const unsigned int warnalpha = 0xA6;
+static const unsigned int urgentalpha = 0xA6;
+static const unsigned int calmalpha = 0xA6;
+static const unsigned int orangealpha = 0xA6;
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm]  = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]   = { col_gray4, col_cyan,  col_cyan  },
-	[SchemeTitle] = { col_gray3, col_gray1, col_gray2 },
+	/*                 fg          bg          border   */
+	[SchemeNorm]   = { col_gray3,  col_gray1,  col_gray2 },
+	[SchemeSel]    = { col_gray4,  col_cyan,   col_cyan  },
+	[SchemeTitle]  = { col_gray3,  col_gray1,  col_gray2 },
+    [SchemeWarn]   = { col_yellow, col_black,  col_red  },
+    [SchemeUrgent] = { col_red,    col_gray1, col_gray1  },
+    [SchemeCalm]   = { col_blue,   col_gray1, col_gray1  },
+    [SchemeOrange] = { col_orange, col_gray1, col_gray1  },
 };
 static const unsigned int alphas[][3]      = {
-	/*               fg      bg        border     */
-	[SchemeNorm]  = { OPAQUE, baralpha, borderalpha },
-	[SchemeSel]   = { OPAQUE, baralpha, borderalpha },
-    [SchemeTitle] = { OPAQUE, baralpha, borderalpha },
+	/*                 fg      bg        border     */
+	[SchemeNorm]    = { OPAQUE, baralpha, borderalpha },
+	[SchemeSel]     = { OPAQUE, baralpha, borderalpha },
+    [SchemeTitle]   = { OPAQUE, baralpha, borderalpha },
+    [SchemeWarn]    = { OPAQUE, warnalpha, warnalpha },
+    [SchemeUrgent]  = { OPAQUE, urgentalpha, urgentalpha },
+    [SchemeCalm]    = { OPAQUE, calmalpha, calmalpha },
+    [SchemeOrange]  = { OPAQUE, orangealpha, orangealpha },
 };
 
 /* tagging */
@@ -136,6 +154,7 @@ static const char *d100cmd[]     =  { "vol100d", NULL };
 static const char *i100cmd[]     =  { "vol100i", NULL };
 static const char *blinccmd[]    =  { "blinc", NULL };
 static const char *bldeccmd[]    =  { "bldec", NULL };
+static const char *blockscmd[]   =  { "dwmblockskill", NULL };
 static const char *settingscmd[] =  { "dmenu_syssettings", NULL };
 static const char *xresetcmd[]   =  { "xsettingsd-reset", NULL };
 static const char *exitcmd[]     =  { "dwm-logout", NULL };
@@ -148,6 +167,8 @@ static Key keys[] = {
      { NOMOD,               XK_Print,  spawn,    {.v = scrotcmd }  },
      { NOMOD,               VOLINC,    spawn,    {.v = volinccmd }  },
      { NOMOD,               VOLDEC,    spawn,    {.v = voldeccmd }  },
+     { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
+     { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
      { NOMOD,               MUTE,      spawn,    {.v = mutecmd }  },
      { NOMOD,               MICMUTE,   spawn,    {.v = micmutecmd }  },
      { MODKEY,              XK_w,      spawn,    {.v = webcmd }  },
@@ -164,10 +185,15 @@ static Key keys[] = {
      { MOD4,                XK_space,  spawn,    {.v = j4cmd }  },
      { MOD4,                XK_u,      spawn,    {.v = dwebcmd }  },
      { MOD4,                XK_p,      spawn,    {.v = dpasscmd }  },
-     { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
-     { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
      { NOMOD,               BLINC,     spawn,    {.v = blinccmd} },
      { NOMOD,               BLDEC,     spawn,    {.v = bldeccmd} },
+     { NOMOD,               BLINC,     spawn,    {.v = blockscmd} },
+     { NOMOD,               BLDEC,     spawn,    {.v = blockscmd} },
+     { NOMOD,               VOLINC,    spawn,    {.v = blockscmd }  },
+     { NOMOD,               VOLDEC,    spawn,    {.v = blockscmd }  },
+     { MODKEY,              VOLINC,    spawn,    {.v = blockscmd }  },
+     { MODKEY,              VOLDEC,    spawn,    {.v = blockscmd }  },
+     { NOMOD,               MUTE,      spawn,    {.v = blockscmd }  },
      /* WINDOW MANAGER CONTROL */
      { MODKEY,              XK_b,      togglebar,      {0} },
      { MODKEY,              XK_Left,   focusstack,     {.i = +1 } },

@@ -6498,6 +6498,16 @@ cue:///home/jll/Music/e/Emmure/Goodbye to the Gallows/Emmure - Goodbye to the Ga
 /home/jll/Music/w/Hank Williams III/Lovesick, Broke & Driftin'/Hank Williams III - Lovesick, Broke & Driftin' - 11 - Nighttime Ramblin' Man.mp3
 /home/jll/Music/w/Hank Williams III/Lovesick, Broke & Driftin'/Hank Williams III - Lovesick, Broke & Driftin' - 12 - Callin' Your Name.mp3
 /home/jll/Music/w/Hank Williams III/Lovesick, Broke & Driftin'/Hank Williams III - Lovesick, Broke & Driftin' - 13 - Atlantic City.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/01 - Hellbilly Joker.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/02 - Hang On.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/03 - Life of Sin.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/04 - Mary Fucking Jane.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/05 - Now He's Dead.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/06 - Tennessee Driver.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/07 - Runnin' and Gunnin'.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/08 - Ten Feet Down.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/09 - Pistol Packin' Motherfucker.mp3
+/home/jll/Music/w/Hank Williams III/This Ain't Country/10 - Drink It, Drug It.mp3
 /home/jll/Music/w/Hank Williams III/Straight To Hell/Hank Williams III - Straight To Hell - 01 - Satan Is RealStraight To Hell (Medley).mp3
 /home/jll/Music/w/Hank Williams III/Straight To Hell/Hank Williams III - Straight To Hell - 02 - Thrown Out of The Bar.mp3
 /home/jll/Music/w/Hank Williams III/Straight To Hell/Hank Williams III - Straight To Hell - 03 - Things You Do To Me.mp3

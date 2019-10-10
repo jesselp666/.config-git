@@ -40,6 +40,7 @@ alias trashput=trash-put
 alias trashempty='sudo trash-empty'
 alias trashlist=trash-list
 alias trashrestore=trash-restore
+alias sudo='dbus-launch sudo'
 #if hash nvim >/dev/null 2>&1; then
 #    alias vim='nvim'
 #    alias v='nvim'
@@ -64,8 +65,7 @@ alias gpo='git push origin HEAD'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 
 #aliases
-alias grep=egrep ps=sps make=gmake
-alias pup='alias-pkgupdate' # update
+alias grep=egrep make=gmake
 #alias pin='sudo pacman -S'    # install
 #alias pun='sudo pacman -Rs'   # remove
 #alias pcc='sudo pacman -Scc'  # clear cache
@@ -80,14 +80,14 @@ alias pacman-repair='pacman -Sy archlinux-keyring archlabs-keyring
 alias killdb='sudo rm /var/lib/pacman/db.lck'
 alias yo=yay
 alias aur-check=checkupdates-aur
-
+alias yup="yay -Syyuu && pkgupdates"
 alias pkg='makepkg --printsrcinfo > .SRCINFO && makepkg -fsrc'
 alias spkg='pkg --sign'
-
+alias pup="pkgupdates"
 alias mk='make && make clean'
 alias smk='sudo make clean install && make clean'
 alias ssmk='sudo make clean install && make clean && rm -iv config.h'
-
+alias fmsu="lxqt-sudo dbus-launch --exit-with-session pcmanfm-qt"
 # aliases inside tmux session
 if [[ $TERM == *tmux* ]]; then
     alias :sp='tmux split-window'

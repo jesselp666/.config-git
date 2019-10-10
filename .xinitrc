@@ -10,13 +10,15 @@ start-pulseaudio-x11
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 export XDG_CONFIG_HOME="$HOME/.config"
 export QT_QPA_PLATFORMTHEME="qt5ct"
+export XDG_RUNTIME_DIR=/var/run/user/1000
 [ -d /sbin ] && PATH="$PATH:/sbin"
 [ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
 [ -d "$HOME/.bin" ] && PATH="$HOME/bin:$PATH"
 [ -d "$HOME/.cargo/bin" ] && PATH="$HOME/.cargo/bin:$PATH"
 [ -d "$HOME/.scripts/bin" ] && PATH="$HOME/.scripts/bin:$PATH"
 [ -d "$HOME/.config/polybar/bin" ] && PATH="$HOME/.config/polybar/bin:$PATH"
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+lxqt-policykit-agent &
 usr/bin/gnome-keyring-daemon --start --components=secrets &
 pulseeffects --gapplication-service --load-preset freeqy &
 /usr/lib/at-spi-bus-launcher --launch-immediately &
@@ -29,9 +31,10 @@ rfkill block bluetooth
 nitrogen --restore &
 xsettingsd &
 beep -l 0 &
+pkgupdates &
 dwm-wttr &
 compton &
-dwm-bar &
+dwmblocks &
 xset -b
 
 exec dwm

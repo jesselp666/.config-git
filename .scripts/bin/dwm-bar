@@ -4,6 +4,8 @@ export SEP1="["
 export SEP2="]"
 export PERC="%"
 export IDENTIFIER="unicode"
+export col4=""
+export col1=""
 # status modules #
 
 dwm_battery () {
