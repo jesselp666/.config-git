@@ -388,7 +388,7 @@ current_item_inactive_column_prefix = $(black_blue)$r
 ## media_library, playlist_editor, tag_editor, outputs, visualizer, clock,
 ## lyrics, last_fm.
 ##
-screen_switcher_mode = media_library, clock
+screen_switcher_mode = media_library, visualizer
 #
 ##
 ## Note: You can define startup screen by choosing screen from the list above.
@@ -528,7 +528,7 @@ main_window_color = blue
 #
 #progressbar_color = black:b
 #
-#progressbar_elapsed_color = green:b
+progressbar_elapsed_color = green:b
 #
 #statusbar_color = default
 #

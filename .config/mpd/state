@@ -1,30 +1,15 @@
 sw_volume: 100
-audio_device_state:1:pulse audio
-audio_device_state:0:toggle_visualizer
-state: pause
-current: 14
-time: 52.453000
+audio_device_state:1:alsa
+audio_device_state:1:toggle_visualizer
+state: stop
+current: 0
 random: 1
 repeat: 0
-single: 1
+single: 0
 consume: 1
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:a/Abandoned By Bears/The Years Ahead/01. Search & Find - Abandoned By Bears.mp3
-1:a/Abandoned By Bears/The Years Ahead/02. Good Terms - Abandoned By Bears.mp3
-2:a/Abandoned By Bears/The Years Ahead/03. Out of Bounds - Abandoned By Bears.mp3
-3:a/Abandoned By Bears/The Years Ahead/04. For the Sake of Nothing - Abandoned By Bears.mp3
-4:a/Abandoned By Bears/The Years Ahead/05. True Colors - Abandoned By Bears.mp3
-5:a/Abandoned By Bears/The Years Ahead/06. Good Luck Next Year - Abandoned By Bears.mp3
-6:a/Abandoned By Bears/The Years Ahead/07. Bookmarks - Abandoned By Bears.mp3
-7:a/Abandoned By Bears/The Years Ahead/08. No Rush - Abandoned By Bears.mp3
-8:a/Abandoned By Bears/The Years Ahead/09. Void Filler - Abandoned By Bears.mp3
-9:a/Abandoned By Bears/The Years Ahead/10. Act as If - Abandoned By Bears.mp3
-10:a/Abandoned By Bears/The Years Ahead/11. Bad Luck - Abandoned By Bears.mp3
-11:a/Abandoned By Bears/The Years Ahead/12. Compromise - Abandoned By Bears.mp3
-12:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 02 - Trapped.mp3
-13:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 03 - Soulja's Story.mp3
-14:a/AFI/Shut Your Mouth And Open Your Eyes/AFI - Shut Your Mouth and Open Your Eyes - 01 - Keeping Out Of Direct Sunlight (an introduction).mp3
+0:n/Nine Inch Nails/Quake/02 - Nine Inch Nails - Main Theme.flac
 playlist_end
