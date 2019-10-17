@@ -23,7 +23,7 @@ static const char col_red[]         = "#FF003A";
 static const char col_yellow[]      = "#FFFA44";
 static const char col_white[]       = "#00FF62";
 static const char col_blue[]        = "#00D7FF";
-static const char col_orange[]      = "#FF7700";
+static const char col_inactive[]    = "#757575";
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
@@ -34,26 +34,26 @@ static const unsigned int borderalpha = 0xA6;
 static const unsigned int warnalpha = 0xA6;
 static const unsigned int urgentalpha = 0xA6;
 static const unsigned int calmalpha = 0xA6;
-static const unsigned int orangealpha = 0xA6;
+static const unsigned int inactivealpha = 0xA6;
 static const char *colors[][3]      = {
-	/*                 fg          bg          border   */
-	[SchemeNorm]   = { col_gray3,  col_gray1,  col_gray2 },
-	[SchemeSel]    = { col_gray4,  col_cyan,   col_cyan  },
-	[SchemeTitle]  = { col_gray3,  col_gray1,  col_gray2 },
-    [SchemeWarn]   = { col_yellow, col_black,  col_red  },
-    [SchemeUrgent] = { col_red,    col_gray1, col_gray1  },
-    [SchemeCalm]   = { col_blue,   col_gray1, col_gray1  },
-    [SchemeOrange] = { col_orange, col_gray1, col_gray1  },
+	/*                   fg          bg          border   */
+	[SchemeNorm]     = { col_gray3,    col_gray1,  col_gray2 },
+	[SchemeSel]      = { col_gray4,    col_cyan,   col_cyan  },
+	[SchemeTitle]    = { col_gray3,    col_gray1,  col_gray2 },
+    [SchemeWarn]     = { col_yellow,   col_black,  col_red   },
+    [SchemeUrgent]   = { col_red,      col_gray1, col_gray1  },
+    [SchemeCalm]     = { col_blue,     col_gray1, col_gray1  },
+    [SchemeInactive] = { col_inactive, col_gray1, col_gray1  },
 };
 static const unsigned int alphas[][3]      = {
-	/*                 fg      bg        border     */
-	[SchemeNorm]    = { OPAQUE, baralpha, borderalpha },
-	[SchemeSel]     = { OPAQUE, baralpha, borderalpha },
-    [SchemeTitle]   = { OPAQUE, baralpha, borderalpha },
-    [SchemeWarn]    = { OPAQUE, warnalpha, warnalpha },
-    [SchemeUrgent]  = { OPAQUE, urgentalpha, urgentalpha },
-    [SchemeCalm]    = { OPAQUE, calmalpha, calmalpha },
-    [SchemeOrange]  = { OPAQUE, orangealpha, orangealpha },
+	/*                   fg       bg        border     */
+	[SchemeNorm]      = { OPAQUE, baralpha, borderalpha },
+	[SchemeSel]       = { OPAQUE, baralpha, borderalpha },
+    [SchemeTitle]     = { OPAQUE, baralpha, borderalpha },
+    [SchemeWarn]      = { OPAQUE, warnalpha, warnalpha },
+    [SchemeUrgent]    = { OPAQUE, urgentalpha, urgentalpha },
+    [SchemeCalm]      = { OPAQUE, calmalpha, calmalpha },
+    [SchemeInactive]  = { OPAQUE, inactivealpha, inactivealpha },
 };
 
 /* tagging */

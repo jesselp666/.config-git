@@ -1,2 +1,2 @@
 #!/bin/sh
-printf "📆%s " "$(date "+%a|📅%m/%d")"
+printf "%s " "$(date "+📆%a|📅%m/%d")"

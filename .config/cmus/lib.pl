@@ -2408,16 +2408,16 @@
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 20 - Oxidised Razor Masticator.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 21 - Mucopurulence Execretor.mp3
 /home/jll/Music/c/Carcass/Reek Of Putrefaction/Carcass - Reek Of Putrefaction - 22 - Malignant Defecation.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 01 - Reek Of Putrefaction.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 02 - Exhume To Consume.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 03 - Excoriating Abdominal Emanation.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 04 - Ruptured In Purulence.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 05 - Empathological Necroticism.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 06 - Embryonic Necropsy And Devourment.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 07 - Swarming Vugar Mass Of Infected Virulency.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 08 - Cadaveric Incubator Of Endoparasites.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 09 - Slash Dementia.mp3
-/home/jll/Music/c/Carcass/Symphonies Of Sickness/CARCASS - Symphonies Of Sickness - 10 - Crepitating Bowel Erosion.mp3
+/home/jll/Music/c/Carcass/Symphonies of Sickness/01 - Reek Of Putrefaction.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/02 - Exhume To Consume.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/03 - Excoriating Abdominal Emanation.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/04 - Ruptured In Purulence.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/05 - Empathological Necroticism.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/06 - Embryonic Necropsy And Devourment.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/07 - Swarming Vulgar Mass Of Infected Virulency.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/08 - Cadaveric Incubator Of Endoparasites.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/09 - Slash Dementia.flac
+/home/jll/Music/c/Carcass/Symphonies of Sickness/10 - Crepitating Bowel Erosion.flac
 /home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 01 - Inpropagation.mp3
 /home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 02 - Corporal Jigsore Quandary.mp3
 /home/jll/Music/c/Carcass/Necroticism-Descanting The Insalubrious/Carcass - Necroticism Descanting the Insalubrious - 03 - Symposium of Sickness.mp3
@@ -6965,6 +6965,8 @@ cue:///home/jll/Music/e/Emmure/Goodbye to the Gallows/Emmure - Goodbye to the Ga
 /home/jll/Music/i/The Incredible String Band/Changing Horses/Incredible String Band - Changing Horses - 03 - Dust Be Diamonds.mp3
 /home/jll/Music/i/The Incredible String Band/Changing Horses/Incredible String Band - Changing Horses - 04 - Sleepers, Awake!.mp3
 /home/jll/Music/i/The Incredible String Band/Changing Horses/Incredible String Band - Changing Horses - 05 - Mr. & Mrs.mp3
+/home/jll/Music/01 New Born Porn.flac
+/home/jll/Music/02 I. Infant Annihilator.flac
 /home/jll/Music/i/Iniquity/Serenadium/Iniquity - Serenadium - 01 - Tranquil Seizure.mp3
 /home/jll/Music/i/Iniquity/Serenadium/Iniquity - Serenadium - 02 - Prophecy Of The Dying Watcher.mp3
 /home/jll/Music/i/Iniquity/Serenadium/Iniquity - Serenadium - 03 - Serenadium.mp3
@@ -11334,6 +11336,15 @@ cue:///home/jll/Music/e/Emmure/Goodbye to the Gallows/Emmure - Goodbye to the Ga
 /home/jll/Music/r/Rhapsody/Symphony of Enchanted Lands/Rhapsody - Symphony of Enchanted Lands - 08 - The Dark Tower Of Abyss.mp3
 /home/jll/Music/r/Rhapsody/Symphony of Enchanted Lands/Rhapsody - Symphony of Enchanted Lands - 09 - Riding The Winds Of Eternity.mp3
 /home/jll/Music/r/Rhapsody/Symphony of Enchanted Lands/Rhapsody - Symphony of Enchanted Lands - 10 - Symphony Of Enchanted Lands.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Seized And Devoured.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Invasion.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Abducted.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Final Abhorrent Dream.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Corpses Thrown Across The Sky.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Embryonic Anomaly.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Annihilating The Pure.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/Grinding Of Internal Organs.mp3
+/home/jll/Music/r/Rings of Saturn/Embryonic Anomaly/End Of Humanity.mp3
 /home/jll/Music/j/Robert Johnson/The Complete Recordings/Disc 1/Robert Johnson - The Complete Recordings - Disc 1 - 01 - Kindhearted Woman Blues.mp3
 /home/jll/Music/j/Robert Johnson/The Complete Recordings/Disc 1/Robert Johnson - The Complete Recordings - Disc 1 - 02 - Kindhearted Woman Blues [Alternate Take].mp3
 /home/jll/Music/j/Robert Johnson/The Complete Recordings/Disc 1/Robert Johnson - The Complete Recordings - Disc 1 - 03 - I Believe I'll Dust My Broom.mp3

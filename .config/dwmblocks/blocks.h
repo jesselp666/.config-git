@@ -1,12 +1,12 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		                     /*Update Interval*/	/*Update Signal*/
+    {"", "~/.config/dwmblocks/statusbar/pkgupdates",				 10,	1},
     {"", "~/.config/dwmblocks/statusbar/clock",						 1,		1},
     {"", "~/.config/dwmblocks/statusbar/pulse",						 5,		1},
-    {"", "~/.config/dwmblocks/statusbar/date",						 60,	1},
+    {"", "~/.config/dwmblocks/statusbar/date",					     60,	1},
     {"", "~/.config/dwmblocks/statusbar/backlight",                  5,     1},
     {"", "~/.config/dwmblocks/statusbar/wttr",					     0, 	1},
-    {"", "~/.config/dwmblocks/statusbar/pkgupdates",				 10,	1},
     {"", "~/.config/dwmblocks/statusbar/pwrsupply",					 10,	1},
     {"", "~/.config/dwmblocks/statusbar/battery",					 10,	1},
 };

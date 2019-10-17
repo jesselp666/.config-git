@@ -31,10 +31,11 @@ rfkill block bluetooth
 nitrogen --restore &
 xsettingsd &
 beep -l 0 &
-pkgupdates &
+dwmblocks &
 dwm-wttr &
 compton &
-dwmblocks &
 xset -b
+sleep 3 &&
+pkgupdates &
 
 exec dwm

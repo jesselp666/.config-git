@@ -10,3 +10,5 @@ ST - 5 patches (alpha, boxdraw, clipboard, scrollback, spoiler)
 DMENU - 4 patches (fuzzymatch, mousesupport, prefixcompletion-flag, xyw)
 
 added dwmblocks
+
+added mpd and ncmpcpp config

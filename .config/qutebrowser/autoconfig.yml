@@ -15,7 +15,7 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  url.searchengines:
-    global:
-      DEFAULT: https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}
-      ma: https://www.metal-archives.com/search?searchString={}&type=band_name
+  auto_save.interval:
+    global: 15000
+  content.plugins:
+    global: false
