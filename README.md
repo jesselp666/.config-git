@@ -12,3 +12,5 @@ DMENU - 4 patches (fuzzymatch, mousesupport, prefixcompletion-flag, xyw)
 added dwmblocks
 
 added mpd and ncmpcpp config
+
+added mpd status script I wrote for dwmblocks
