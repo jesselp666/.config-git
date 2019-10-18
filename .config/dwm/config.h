@@ -181,6 +181,7 @@ static Key keys[] = {
      { NOMOD,               MUTE,      spawn,    {.v = mutecmd }  },
      { NOMOD,               MICMUTE,   spawn,    {.v = micmutecmd }  },
      { NOMOD,               PLYTRK,    spawn,    {.v = mpdplypzcmd }  },
+     { MOD4,                XK_Return, spawn,    {.v = mpdplypzcmd }  },
      { NOMOD,               PAZTRK,    spawn,    {.v = mpdstopcmd }  },
      { NOMOD,               NXTTRK,    spawn,    {.v = mpdnxtcmd }  },
      { NOMOD,               PRVTRK,    spawn,    {.v = mpdprvcmd }  },
