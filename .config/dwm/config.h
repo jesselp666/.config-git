@@ -118,6 +118,10 @@ static const Layout layouts[] = {
 #define VOLINC    0x1008ff13
 #define BLINC     0x1008ff02
 #define BLDEC     0x1008ff03
+#define PRVTRK    0x1008ff16
+#define NXTTRK    0x1008ff17
+#define PLYTRK    0x1008ff14
+#define PAZTRK    0x1008ff15
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -154,6 +158,11 @@ static const char *d100cmd[]     =  { "vol100d", NULL };
 static const char *i100cmd[]     =  { "vol100i", NULL };
 static const char *blinccmd[]    =  { "blinc", NULL };
 static const char *bldeccmd[]    =  { "bldec", NULL };
+static const char *mpdplypzcmd[] =  { "mpd-playpaws", NULL };
+static const char *mpdstopcmd[]  =  { "mpd-stop", NULL };
+static const char *mpdnxtcmd[]   =  { "mpd-next", NULL };
+static const char *mpdprvcmd[]   =  { "mpd-prev", NULL };
+static const char *mpdmenucmd[]  =  { "mpdmenu", NULL };
 static const char *blockscmd[]   =  { "dwmblockskill", NULL };
 static const char *settingscmd[] =  { "dmenu_syssettings", NULL };
 static const char *xresetcmd[]   =  { "xsettingsd-reset", NULL };
@@ -171,6 +180,11 @@ static Key keys[] = {
      { MODKEY,              VOLDEC,    spawn,    {.v = i100cmd }  },
      { NOMOD,               MUTE,      spawn,    {.v = mutecmd }  },
      { NOMOD,               MICMUTE,   spawn,    {.v = micmutecmd }  },
+     { NOMOD,               PLYTRK,    spawn,    {.v = mpdplypzcmd }  },
+     { NOMOD,               PAZTRK,    spawn,    {.v = mpdstopcmd }  },
+     { NOMOD,               NXTTRK,    spawn,    {.v = mpdnxtcmd }  },
+     { NOMOD,               PRVTRK,    spawn,    {.v = mpdprvcmd }  },
+     { MOD4,                XK_m,      spawn,    {.v = mpdmenucmd }  },
      { MODKEY,              XK_w,      spawn,    {.v = webcmd }  },
      { MODKEY,              XK_f,      spawn,    {.v = filemancmd }  },
      { MODKEY,              XK_m,      spawn,    {.v = musiccmd }  },

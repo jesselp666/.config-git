@@ -71,7 +71,7 @@
 ## that sane values start with >=10.
 ##
 #
-#visualizer_sync_interval = 30
+visualizer_sync_interval = 35
 #
 ##
 ## Note: To enable spectrum frequency visualization you need to compile ncmpcpp
@@ -80,7 +80,7 @@
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-#visualizer_type = wave
+visualizer_type = spectrum 
 #
 #visualizer_look = ●▮
 #
@@ -262,7 +262,7 @@ current_item_inactive_column_prefix = $(black_blue)$r
 ##   available.
 ##
 #
-#song_columns_list_format = (20)[]{a} (6f)[green]{NE} (50)[white]{t|f:Title} (20)[cyan]{b} (7f)[magenta]{l}
+song_columns_list_format = (20)[]{a} (6f)[white_black]{NE} (50)[white_black]{t|f:Title} (20)[white_black]{b} (7f)[white_black]{l}
 #
 ##### various settings #####
 #
@@ -470,7 +470,7 @@ jump_to_now_playing_song_at_start = yes
 ##       database and local one for searching in current playlist)
 ##
 #
-#search_engine_default_search_mode = 1
+search_engine_default_search_mode = 2 
 #
 #external_editor = nano
 #
@@ -510,21 +510,21 @@ jump_to_now_playing_song_at_start = yes
 #
 #colors_enabled = yes
 #
-#empty_tag_color = cyan
+empty_tag_color = cyan
 #
 #header_window_color = default
 #
 #volume_color = default
 #
-#state_line_color = default
+state_line_color = white
 #
 #state_flags_color = default:b
 #
 main_window_color = blue
 #
-#color1 = white
+color1 = black
 #
-#color2 = green
+color2 = black
 #
 #progressbar_color = black:b
 #
@@ -534,9 +534,9 @@ progressbar_elapsed_color = green:b
 #
 #statusbar_time_color = default:b
 #
-#player_state_color = default:b
+player_state_color = white:b
 #
-#alternative_ui_separator_color = black:b
+alternative_ui_separator_color = black:b
 #
 #window_border_color = green
 #
