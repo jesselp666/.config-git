@@ -1,16 +1,31 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 0
-time: 4.120000
+state: stop
+current: 4
 random: 0
 repeat: 0
 single: 0
-consume: 1
+consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:u/Ulver/Kveldssanger/Ulver - Kveldssanger - 13 - Ulvsblakk.mp3
+0:e/Emmure/Look at Yourself/02. Shinjuku Masterlord.mp3
+1:s/Suffocation/Pierced From Within/Suffocation - Pierced From Within - 02 - Thrones Of Blood.mp3
+2:c/Carcass/Heartwork/03-no_love_lost-evighet.mp3
+3:s/Suffocation/Effigy Of The Forgotten/Suffocation - Effigy Of The Forgotten - 01 - Liege Of Inveracity.mp3
+4:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 01 - Young Black Male.mp3
+5:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 02 - Trapped.mp3
+6:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 03 - Soulja's Story.mp3
+7:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 04 - I Don't Give A Fuck.mp3
+8:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 05 - Violent.mp3
+9:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 06 - Words Of Wisdom.mp3
+10:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 07 - Something Wicked.mp3
+11:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 08 - Crooked Ass Nigga.mp3
+12:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 09 - If My Homie Calls.mp3
+13:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 10 - Brenda's Got A Baby.mp3
+14:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 11 - Tha' Lunatic.mp3
+15:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 12 - Rebel Of The Underground.mp3
+16:#/2pac/2Pacalypse Now/2Pac - 2Pacalypse Now - 13 - Part Time Mutha.mp3
 playlist_end

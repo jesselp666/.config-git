@@ -209,6 +209,10 @@ static Key keys[] = {
      { MODKEY,              VOLINC,    spawn,    {.v = blockscmd }  },
      { MODKEY,              VOLDEC,    spawn,    {.v = blockscmd }  },
      { NOMOD,               MUTE,      spawn,    {.v = blockscmd }  },
+     { NOMOD,               PAZTRK,    spawn,    {.v = blockscmd} },
+     { NOMOD,               PLYTRK,    spawn,    {.v = blockscmd} },
+     { NOMOD,               NXTTRK,    spawn,    {.v = blockscmd} },
+     { NOMOD,               PRVTRK,    spawn,    {.v = blockscmd} },
      /* WINDOW MANAGER CONTROL */
      { MODKEY,              XK_b,      togglebar,      {0} },
      { MODKEY,              XK_Left,   focusstack,     {.i = +1 } },
