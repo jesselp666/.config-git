@@ -1,0 +1,11 @@
+#!/bin/sh
+STATUS=$(mpc status | awk 'NR==2')
+if mpc status | grep playing >/dev/null      # If mpd is playing
+    then
+    printf "🎜%s " "$STATUS"
+else
+if mpc status | grep paused >/dev/null      # If mpd is paused
+    then
+    printf "🎜%s " "$STATUS"
+fi
+fi
